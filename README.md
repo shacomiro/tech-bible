@@ -1,2 +1,2 @@
-# backend-bible
-🗺️백엔드-로드맵 지식 습득하기
+# tech-bible
+🗺️개발 지식 습득하기
