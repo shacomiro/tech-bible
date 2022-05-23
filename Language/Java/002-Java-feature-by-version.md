@@ -110,11 +110,37 @@
   - 시간 간격에대한 개념이 섬세하게 정의되어 있으며 `Duration`, `Period`, `Interval` 등으로 역할을 분담한 클래스로 구현했다.
   - 그레고리력과 율리우스력뿐만 아니라 불교, 이슬람교, 콥트 교회, 에티오피아의 달력까지도 지원한다. 다양한 달력은 `org.joda.time.chrono.BaseChronology` 클래스의 하위 클래스로 구현되어 있다.
 
+## Java 1.9 (2017.09.21 Release)
+
+일반 지원은 2018년 3월에 종료되었다.
+
+- Project Jigsaw 기반 런타임 모듈화  
+  대부분의 콘솔 프로그램 개발에서 더 이상 AWT나 Swing 같은 불필요한 라이브러리를 끌어쓸 필요 없이, 최상위 모듈이 Base만 사용해도 무방하다. 또한 특정 프로그램에 최적화된 최소 런타임을 제작할 수 있게 되어 패키징 역시 간편해졌다.
+
+- JShell 추가  
+  Java를 인터프리터 언어 셸처럼 사용할 수 있는 JShell이 추가되었다.
+
+- 구조적 불변 컬렉션(Immutable Collection)  
+  아이템의 추가, 수정, 제거가 불가능한 컬렉션으로 컬랙션 생성 후 변경되기를 윈치 않는 경우에 사용하며, 의도치 않은 컬렉션 변경 예방에 도움이 된다.
+
+  ```java
+  List<String> fruits = List.of("Apple", "Banana", "Cherry"); // [Apple, Banana, Cherry]
+
+  fruits.add("Lemon"); // UnsupportedOperationException 발생
+  ```
+
+- private 인터페이스 메소드
+
+- 통합 JVM 로깅
+
 # 참고 서적/문서
 
 - [Java 각 버전의 특징들 (~JAVA18)](https://marrrang.tistory.com/16)
 - [Java Versions and Features](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features)
-- [Java8 - 메소드 레퍼런스(Method Reference) 이해하기](https://codechacha.com/ko/java8-method-reference/)
-- [디폴트 메서드(Default Method)](https://velog.io/@heoseungyeon/%EB%94%94%ED%8F%B4%ED%8A%B8-%EB%A9%94%EC%84%9C%EB%93%9CDefault-Method)
-- [[자바/Java] Optional 개념,사용](https://lee1535.tistory.com/139)
-- [Java의 날짜와 시간 API](https://d2.naver.com/helloworld/645609)
+- Java8
+  - [Java8 - 메소드 레퍼런스(Method Reference) 이해하기](https://codechacha.com/ko/java8-method-reference/)
+  - [디폴트 메서드(Default Method)](https://velog.io/@heoseungyeon/%EB%94%94%ED%8F%B4%ED%8A%B8-%EB%A9%94%EC%84%9C%EB%93%9CDefault-Method)
+  - [[자바/Java] Optional 개념,사용](https://lee1535.tistory.com/139)
+  - [Java의 날짜와 시간 API](https://d2.naver.com/helloworld/645609)
+- Java9
+  - [Java9의 불변 컬렉션 생성](https://www.daleseo.com/java9-immutable-collections/)
