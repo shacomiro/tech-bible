@@ -1,4 +1,4 @@
-# Java
+# 자바(Java)
 
 1. [자바 개요](./contents/Java-Overview.md)
    1. [자바의 사용](./contents/Java-Overview.md#자바의-사용)
