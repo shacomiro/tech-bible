@@ -9,4 +9,4 @@
       2. [물리적으로 분리하여 보안 강화](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md#물리적으로-분리하여-보안-강화)
       3. [WEB 서버에 여러 WAS들을 연결 가능](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md#web-서버에-여러-was들을-연결-가능)
       4. [다수의 Web Application을 서비스 가능](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md#다수의-web-application을-서비스-가능)
-      5. [풀스택을 프론트엔드-백엔드 분리 시 동작 원리](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md#풀스택을-프론트엔드-백엔드-분리-시-동작-원리)
+    5. [풀스택을 프론트엔드-백엔드 분리 시 동작 원리](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md#풀스택을-프론트엔드-백엔드-분리-시-동작-원리)
