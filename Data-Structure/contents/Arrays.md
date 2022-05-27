@@ -30,16 +30,17 @@
 
 ## 시간복잡도와 공간복잡도
 
-- 시간복잡도  
-  | Operation | Average | Worst |
-  | :-------: | :-----: | :---: |
-  | Access | <span style="background-color:#7dcd3c; color:black; padding: 2px 2px; border-radius:4px;">Θ(1)</span> | <span style="background-color:#7dcd3c; color:black; padding: 2px 2px; border-radius:4px;">O(1)</span> |
-  | Search | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
-  | Insertion | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
-  | Deletion | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
+- 시간복잡도
+
+  | Operation | Average | Worst  |
+  | :-------: | :-----: | :----: |
+  |  Access   | `Θ(1)`  | `O(1)` |
+  |  Search   | `Θ(n)`  | `O(n)` |
+  | Insertion | `Θ(n)`  | `O(n)` |
+  | Deletion  | `Θ(n)`  | `O(n)` |
 
 - 공간복잡도  
-  <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span>
+  `O(n)`
 
 ## 참고 서적/문서
 
