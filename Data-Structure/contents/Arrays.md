@@ -1,0 +1,52 @@
+# 배열
+
+## 목차
+
+1. [정의](#정의)
+2. [특징](#특징)
+3. [활용](#활용)
+4. [시간복잡도와 공간복잡도](#시간복잡도와-공간복잡도)
+
+## 정의
+
+> 동일한 크기와 성질을 가지고 있는 몇 개의 요소가 일정한 규칙에 따라 나열되어 있는 형태, 또는 인덱스와 값의 쌍들로 된 집합.
+
+배열은 연속된 메모리 공간에 순차적으로 저장된 데이터 모임이다. 대부분의 프로그램 언어에서 동일 타입의 데이터만 저장할 수 있다. 배열을 구성하는 각각의 값을 `요소(element)`라고 하며, 배열에서의 위치를 가리키는 숫자를 `인덱스(index)`라고 한다.
+
+## 특징
+
+- 배열은 같은 타입의 데이터를 여러개 나열한 **선형 자료구조**.
+- 연속적인 메모리 공간에 **순차적**으로 데이터를 저장. 즉, 논리적 순서와 물리적 순서가 일치.
+- 배열은 선언할 때 크기를 정하면, 그 크기로 **고정**됨.(정적 메모리 할당)
+- 선언된 값은 배열을 다시 선언하지 않으면 **변경 불가능**.
+- Random Access를 지원. 즉, 인덱스를 통해서 각 요소에 직접 접근할 수 있음.
+
+## 활용
+
+- 순차적인 데이터를 저장하며, 값보다는 순서가 중요할 때.
+- 다차원 데이터를 다룰 때.
+- 어떤 특정 요소를 빠르게 읽어야 할 때.
+- 데이터의 크기가 자주 바뀌지 않으며 데이터의 추가, 삭제가 뜸한 경우.
+
+## 시간복잡도와 공간복잡도
+
+- 시간복잡도  
+  | Operation | Average | Worst |
+  | :-------: | :-----: | :---: |
+  | Access | <span style="background-color:#7dcd3c; color:black; padding: 2px 2px; border-radius:4px;">Θ(1)</span> | <span style="background-color:#7dcd3c; color:black; padding: 2px 2px; border-radius:4px;">O(1)</span> |
+  | Search | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
+  | Insertion | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
+  | Deletion | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">Θ(n)</span> | <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span> |
+
+- 공간복잡도  
+  <span style="background-color:#fefe53; color:black; padding: 2px 2px; border-radius:4px;">O(n)</span>
+
+## 참고 서적/문서
+
+- PRACTICAL DATA STRUCTURE 데이터 구조 - 오상엽, 장성식, 정호일 저
+- #정의
+  - [[자료구조] 배열 (Array)](https://yoongrammer.tistory.com/43)
+- #특징, #활용
+  - [[자료구조] 배열(Array)](https://velog.io/@hanif/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%B0%B0%EC%97%B4)
+- #시간복잡도와 공간복잡도
+  - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
