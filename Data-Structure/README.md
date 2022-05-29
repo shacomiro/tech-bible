@@ -9,3 +9,8 @@
    2. [특징](./contents/Arrays.md#특징)
    3. [활용](./contents/Arrays.md#활용)
    4. [시간복잡도와 공간복잡도](./contents/Arrays.md#시간복잡도와-공간복잡도)
+3. [링크드 리스트(Linked List)](./contents/Linked-List.md)
+   1. [정의](./contents/Linked-List.md#정의)
+   2. [특징](./contents/Linked-List.md#특징)
+   3. [활용](./contents/Linked-List.md#활용)
+   4. [시간복잡도와 공간복잡도](./contents/Linked-List.md#시간복잡도와-공간복잡도)
