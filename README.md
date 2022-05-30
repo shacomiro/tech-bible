@@ -16,7 +16,7 @@
 4. [데이터베이스(Database)](./Database/)
 5. [알고리즘(Algorithms)](./Algorithms/)
    - 정렬
-     - [위상 정렬(Topological Sort)](./contents/Topological-Sort.md)
+     - [위상 정렬(Topological Sort)](./Algorithms/contents/Topological-Sort.md)
    - 기타
      - [투 포인터(Two Pointers)](./Algorithms/contents/Two-Pointers.md)
 6. [언어(Language)](./Language/)
