@@ -1,6 +1,119 @@
 # 알고리즘(Algorithms)
 
-- 정렬
-  - [위상 정렬(Topological Sort)](./contents/Topological-Sort.md)
-- 기타
-  - [투 포인터(Two Pointers)](./contents/Two-Pointers.md)
+> 알고리즘 분류 - [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519) 참조.
+
+- 수학(Mathmetics) #1
+  - 순열(Permutation)
+  - 조합(Combination)
+  - 소수(Prime Number)
+    - 에라토스테네스의 체(Eratostheneen seula)
+  - 최대공약수와 최소공배수(GCD, LCM)
+    - 유클리드 호제법(Euclidean algorithm)
+  - 행렬(Matrix)
+- 완전 탐색(Exhaustive Search)
+  - 부르트-포스(Brute-Force)
+  - 백트래킹(Backtracking)
+    - _N개의 퀸(N Queens) 문제_
+  - 최적화 문제(Optimization Problem)
+    - _외판원 순회(TSP) 문제_
+  - 분할 정복(Divide & Conquer)
+    - 이분 검색(Binary Search)
+- 탐욕법(Greedy Algorithm)
+- 비트마스크(Bitmask)
+- 다이나믹 프로그래밍(DP, Dynamic Programming) #1
+  - _0-1 배낭 문제(0-1 Knapsack Problem)_
+  - 최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ...
+    - _O(N^2), O(NlogN)_
+  - 부분집합(Subset)
+- 문자열(String)
+  - 회문(Palindrome)
+    - Manacher's Algorithm
+  - 허프만 코딩(Huffman coding)
+  - 트라이(Trie)
+  - 접미사 트리(Suffix Tree)
+  - 매칭 문제(Matching Problems)
+    - KMP 알고리즘(KMP Algorithm)
+    - 라빈-카프 알고리즘(Krap-Rabin Algorithm)
+    - 보이어-무어 알고리즘(Boyer-Moore Algorithm)
+    - 아호-코라식 알고리즘(Aho-corasick)
+    - Z 알고리즘(Z Algorithm)
+    - 접미사 배열(Suffix Array)
+- 최소 신장 트리(MST, Minimun Spanning Tree)
+  - 크루스칼 알고리즘(Kruskal's Algorithm)
+  - 프림 알고리즘(Prim's Algorithm)
+- 그래프(Graph) #1
+  - 탐색(Searching)
+    - 깊이 우선 탐색(DFS)
+    - 너비 우선 탐색(BFS)
+  - 최단 거리(Shortest Path)
+    - 다익스트라 알고리즘(Dijkstra's Algorithm)
+    - 벨만-포드 알고리즘(Bellman-Ford Algorithm)
+    - 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm)
+    - SPFA(Shortest Path Faster Algorithm)
+  - 정렬(Sorting)
+    - [위상 정렬(Topological Sort)](./contents/Topological-Sort.md)
+- 정렬(Sorting)
+  - 버블 정렬(Bubble Sort)
+  - 삽입 정렬(Insert Sort)
+  - 선택 정렬(Selection Sort)
+  - 퀵 정렬(Quick Sort)
+  - 병합 정렬(Merge Sort)
+  - 힙 정렬(Heap Sort)
+  - 기수 정렬(Radix Sort)
+  - 계수 정렬(Couting Sort)
+  - 셸 정렬(Shell Sort)
+- 수학(Mathmetics) #2
+  - 이항 계수(binomial coefficient)
+    - 파스칼의 삼각형(Pascal's triangle)
+  - 카탈랑 수(Catalan Number)
+  - 오일러 피 함수(Euler's phi function)
+  - 페르마의 소정리(Fermat's little theorem)
+  - 가우스 소거법(Gaussian elimination)
+  - 모듈러 연산(Modular Arithmetic)
+  - 이산 수학(Discrete Mathematics)
+    - 비둘기 집의 원리(The Pigeonhole Principle)  
+      디리클레 서랍 원리(Dirichlet drawer principle)라고 알려짐
+  - 제2종 스털링 수(Stirling numbers of the second kind)
+- 기하학(Geometry)
+  - 내적과 외적(Cross/Dot Product)
+  - 컨벡스 헐(Convex Hull)
+  - 그레이엄 스캔(Graham Scan)
+  - 각도 정렬(Angle Sort)
+  - 선분 교차 판별(Line Intersection)
+  - 반시계(CCW, Counter Colck Wise)
+  - 평면/선분 스위핑(Plane/Line Sweeping)
+  - 회전하는 캘리퍼스 알고리즘(Rotating Calipers)
+- 트리(Tree) #2
+  - 최소 공통 조상(LCA, Lowest Common Ancestor)
+    - _전위순회 DFS & 세그먼트 트리(Segment Tree)를 이용하는 방법_
+    - _희소 테이블(Sparse Table)을 이용하는 방법 (권장)_
+- 범위 쿼리(Range Query)
+  - 세그먼트 트리(Segment Tree)
+    - 세그먼트 트리 게으른 전파(Segment Tree Lazy Propagation)
+  - [투 포인터 알고리즘(Two Pointers Algorithm)](./contents/Two-Pointers.md)
+  - 슬라이딩 윈도우 알고리즘(Sliding Window Algorithm)
+- 그래프(Graph) #2
+  - 네트워크 흐름(Network Flow)
+    - 최대 흐름(Maximum Flow)
+      - 포드-폴커슨 알고리즘(Ford-Fulkerson)
+        - 에드몬드-카프 알고리즘(Edmond-Karp)  
+          (포드-폴커슨 알고리즘의 구현 형태)
+      - 다닉 알고리즘(Dinic's Algorithm)
+      - 심화
+        - 최소 절단 최대 흐름(MCMF, Minumun Cut Maximum Flow)
+        - 최소 비용 최대 흐름(MCMF, Minumun Cost Maximum Flow)
+          - _SPFA의 벨만-포드 알고리즘(Bellman-Ford Algorithm)을 이용하는 방법_
+          - _헝가리안 메소드(Hungarian Method)를 이용하는 방법_
+        - 이분 매칭
+          - 호프크로프트-카프 알고리즘(Hopgroft-Karp Algorithm)
+- 그래프(Graph) #3
+  - 오일러 경로(Eulerian Path)
+    - Hierholzer's Algorithm
+  - SCC(Strongly Connected Component)
+    - 타잔 알고리즘(Tarjan's Algorithm)
+    - 코사라주 알고리즘(Kosaraju's Algorithm)
+- 다이나믹 프로그래밍(DP, Dynamic Programming) #2
+  - DP 최적화(DP Optimization)
+    - 크누스 최적화(Knuth Optimization)
+    - 분할 정복 최적화(Dvide & Conquer Optimization)
+    - 컨벡스 헐 최적화(Convex Hull Optimization)
