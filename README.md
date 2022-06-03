@@ -15,10 +15,11 @@
 3. [운영체제(OS)](./Operating-System/)
 4. [데이터베이스(Database)](./Database/)
 5. [알고리즘(Algorithms)](./Algorithms/)
-   - 정렬
-     - [위상 정렬(Topological Sort)](./Algorithms/contents/Topological-Sort.md)
-   - 기타
-     - [투 포인터(Two Pointers)](./Algorithms/contents/Two-Pointers.md)
+   - 그래프(Graph) #1
+      - 정렬
+         - [위상 정렬(Topological Sort)](./Algorithms/contents/Topological-Sort.md)
+   - 범위 쿼리(Range Query)
+      - [투 포인터 알고리즘(Two Pointers Algorithm)](./Algorithms/contents/Two-Pointers.md)
 6. [언어(Language)](./Language/)
    - [자바(Java)](./Language/Java/)
      1. [자바 개요](./Language/Java/contents/Java-Overview.md)
