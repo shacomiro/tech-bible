@@ -20,11 +20,12 @@
     - 이분 검색(Binary Search)
 - 탐욕법(Greedy Algorithm)
 - 비트마스크(Bitmask)
-- 다이나믹 프로그래밍(DP, Dynamic Programming) #1
+- [다이나믹 프로그래밍(DP, Dynamic Programming) #1](./contents/Dynamic-Programming-01.md)
   - _0-1 배낭 문제(0-1 Knapsack Problem)_
-  - 최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ...
-    - _O(N^2), O(NlogN)_
-  - 부분집합(Subset)
+  - _최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ..._
+    - 시간복잡도 O(N^2)으로 해결하는 방법
+    - 시간복잡도 O(NlogN)으로 해결하는 방법
+  - _부분집합(Subset)_
 - 문자열(String)
   - 회문(Palindrome)
     - Manacher's Algorithm
