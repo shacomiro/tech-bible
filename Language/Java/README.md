@@ -1,7 +1,7 @@
 # 자바(Java)
 
-- [자바 개요](./contents/Java-Overview.md)
-- [자바 버전별 특징](./contents/Java-feature-by-version.md)
+- [Java 개요](./contents/Java-Overview.md)
+- [Java 버전별 특징](./contents/Java-feature-by-version.md)
 
 ## 수록 예정
 

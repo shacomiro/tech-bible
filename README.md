@@ -4,25 +4,310 @@
 
 > 내용에 오류가 있거나 추가할 내용이 있다면 `Issue` 또는 `Pull Request`를 통해 알려주시면 감사하겠습니다.
 
+> 아래의 목차는 [백엔드 개발자 로드맵(by roadmap.sh)](https://roadmap.sh/backend)과 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참조하여 작성되었습니다.
+
 # 목차
 
 1. [자료구조(Data Structure)](./Data-Structure/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
    - [자료구조 개요](./Data-Structure/contents/Datastructure-overview.md)
-   - [배열(Array)](./Data-Structure/contents/Arrays.md)
-   - [링크드 리스트(Linked List)](./Data-Structure/contents/Linked-List.md)
-2. [네트워크(Network)](./Network/)
-   - [WEB 서버와 WAS를 분리하는 이유](./Network/contents/Reasons-for-separating-the-WEB-Server-and-WAS.md)
-3. [운영체제(OS)](./Operating-System/)
-   - [프로세스와 스레드의 차이](./Operating-System/contents/Difference-between-process-and-thread.md)
-4. [데이터베이스(Database)](./Database/)
-5. [알고리즘(Algorithms)](./Algorithms/)
-   - [다이나믹 프로그래밍(DP, Dynamic Programming) #1](./Algorithms/contents/Dynamic-Programming-01.md)
+   - 분류
+     - 선형 자료구조
+       - [배열(Array)](./Data-Structure/contents/Arrays.md)
+       - [링크드 리스트(Linked List)](./Data-Structure/contents/Linked-List.md)
+       </details>
+
+2. [알고리즘(Algorithms)](./Algorithms/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - 수학(Mathmetics) #1
+   - 순열(Permutation)
+   - 조합(Combination)
+   - 소수(Prime Number)
+     - 에라토스테네스의 체(Eratostheneen seula)
+   - 최대공약수와 최소공배수(GCD, LCM)
+     - 유클리드 호제법(Euclidean algorithm)
+   - 행렬(Matrix)
+   - 완전 탐색(Exhaustive Search)
+     - 부르트-포스(Brute-Force)
+     - 백트래킹(Backtracking)
+       - _N개의 퀸(N Queens) 문제_
+     - 최적화 문제(Optimization Problem)
+       - _외판원 순회(TSP) 문제_
+     - 분할 정복(Divide & Conquer)
+       - 이분 검색(Binary Search)
+   - 탐욕법(Greedy Algorithm)
+   - 비트마스크(Bitmask)
+   - [다이나믹 프로그래밍(DP, Dynamic Programming) #1](./contents/Dynamic-Programming-01.md)
+     - _0-1 배낭 문제(0-1 Knapsack Problem)_
+     - _최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ..._
+       - 시간복잡도 O(N^2)으로 해결하는 방법
+       - 시간복잡도 O(NlogN)으로 해결하는 방법
+     - _부분집합(Subset)_
+   - 문자열(String)
+     - 회문(Palindrome)
+       - Manacher's Algorithm
+     - 허프만 코딩(Huffman coding)
+     - 트라이(Trie)
+     - 접미사 트리(Suffix Tree)
+     - 매칭 문제(Matching Problems)
+       - KMP 알고리즘(KMP Algorithm)
+       - 라빈-카프 알고리즘(Krap-Rabin Algorithm)
+       - 보이어-무어 알고리즘(Boyer-Moore Algorithm)
+       - 아호-코라식 알고리즘(Aho-corasick)
+       - Z 알고리즘(Z Algorithm)
+       - 접미사 배열(Suffix Array)
+   - 최소 신장 트리(MST, Minimun Spanning Tree)
+     - 크루스칼 알고리즘(Kruskal's Algorithm)
+     - 프림 알고리즘(Prim's Algorithm)
    - 그래프(Graph) #1
-     - 정렬
-       - [위상 정렬(Topological Sort)](./Algorithms/contents/Topological-Sort.md)
+     - 탐색(Searching)
+       - 깊이 우선 탐색(DFS)
+       - 너비 우선 탐색(BFS)
+     - 최단 거리(Shortest Path)
+       - 다익스트라 알고리즘(Dijkstra's Algorithm)
+       - 벨만-포드 알고리즘(Bellman-Ford Algorithm)
+       - 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm)
+       - SPFA(Shortest Path Faster Algorithm)
+     - 정렬(Sorting)
+       - [위상 정렬(Topological Sort)](./contents/Topological-Sort.md)
+   - 정렬(Sorting)
+     - 버블 정렬(Bubble Sort)
+     - 삽입 정렬(Insert Sort)
+     - 선택 정렬(Selection Sort)
+     - 퀵 정렬(Quick Sort)
+     - 병합 정렬(Merge Sort)
+     - 힙 정렬(Heap Sort)
+     - 기수 정렬(Radix Sort)
+     - 계수 정렬(Couting Sort)
+     - 셸 정렬(Shell Sort)
+   - 수학(Mathmetics) #2
+     - 이항 계수(binomial coefficient)
+       - 파스칼의 삼각형(Pascal's triangle)
+     - 카탈랑 수(Catalan Number)
+     - 오일러 피 함수(Euler's phi function)
+     - 페르마의 소정리(Fermat's little theorem)
+     - 가우스 소거법(Gaussian elimination)
+     - 모듈러 연산(Modular Arithmetic)
+     - 이산 수학(Discrete Mathematics)
+       - 비둘기 집의 원리(The Pigeonhole Principle)  
+         디리클레 서랍 원리(Dirichlet drawer principle)라고 알려짐
+     - 제2종 스털링 수(Stirling numbers of the second kind)
+   - 기하학(Geometry)
+     - 내적과 외적(Cross/Dot Product)
+     - 컨벡스 헐(Convex Hull)
+     - 그레이엄 스캔(Graham Scan)
+     - 각도 정렬(Angle Sort)
+     - 선분 교차 판별(Line Intersection)
+     - 반시계(CCW, Counter Colck Wise)
+     - 평면/선분 스위핑(Plane/Line Sweeping)
+     - 회전하는 캘리퍼스 알고리즘(Rotating Calipers)
+   - 트리(Tree) #2
+     - 최소 공통 조상(LCA, Lowest Common Ancestor)
+       - _전위순회 DFS & 세그먼트 트리(Segment Tree)를 이용하는 방법_
+       - _희소 테이블(Sparse Table)을 이용하는 방법 (권장)_
    - 범위 쿼리(Range Query)
-     - [투 포인터 알고리즘(Two Pointers Algorithm)](./Algorithms/contents/Two-Pointers.md)
-6. [언어(Language)](./Language/)
-   - [자바(Java)](./Language/Java/)
-     - [자바 개요](./Language/Java/contents/Java-Overview.md)
-     - [자바 버전별 특징](./Language/Java/contents/Java-feature-by-version.md)
+     - 세그먼트 트리(Segment Tree)
+       - 세그먼트 트리 게으른 전파(Segment Tree Lazy Propagation)
+     - [투 포인터 알고리즘(Two Pointers Algorithm)](./contents/Two-Pointers.md)
+     - 슬라이딩 윈도우 알고리즘(Sliding Window Algorithm)
+   - 그래프(Graph) #2
+     - 네트워크 흐름(Network Flow)
+       - 최대 흐름(Maximum Flow)
+       - 포드-폴커슨 알고리즘(Ford-Fulkerson)
+         - 에드몬드-카프 알고리즘(Edmond-Karp)  
+            (포드-폴커슨 알고리즘의 구현 형태)
+       - 다닉 알고리즘(Dinic's Algorithm)
+       - 심화
+         - 최소 절단 최대 흐름(MCMF, Minumun Cut Maximum Flow)
+         - 최소 비용 최대 흐름(MCMF, Minumun Cost Maximum Flow)
+           - _SPFA의 벨만-포드 알고리즘(Bellman-Ford Algorithm)을 이용하는 방법_
+           - _헝가리안 메소드(Hungarian Method)를 이용하는 방법_
+         - 이분 매칭
+           - 호프크로프트-카프 알고리즘(Hopgroft-Karp Algorithm)
+   - 그래프(Graph) #3
+     - 오일러 경로(Eulerian Path)
+       - Hierholzer's Algorithm
+     - SCC(Strongly Connected Component)
+       - 타잔 알고리즘(Tarjan's Algorithm)
+       - 코사라주 알고리즘(Kosaraju's Algorithm)
+   - 다이나믹 프로그래밍(DP, Dynamic Programming) #2
+     - DP 최적화(DP Optimization)
+     - 크누스 최적화(Knuth Optimization)
+     - 분할 정복 최적화(Dvide & Conquer Optimization)
+     - 컨벡스 헐 최적화(Convex Hull Optimization)
+     </details>
+
+3. [언어(Language)](./Language/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - [Java](./Language/Java/)
+     - [Java 개요](./Language/Java/contents/Java-Overview.md)
+     - [Java 버전별 특징](./Language/Java/contents/Java-feature-by-version.md)
+   - JavaScript
+     </ditails>
+
+4. 소프트웨어 공학
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - 개발·설계 원칙
+     - GOF 디자인 패턴
+     - 도메인 주도 설계(DDD)
+     - 테스트 주도 개발(TDD)
+     - SOLID
+     - KISS
+     - YAGNI
+     - DRY
+     - 아키텍처 패턴
+       - 모놀리식 애플리케이션
+       - 마이크로서비스
+       - SOA
+       - CQRS와 이벤트 소싱
+       - 서버리스
+   - 테스트
+     - 통합(Intergration) 테스트
+     - 단위(Unit) 테스트
+     - 기능(Function) 테스트
+   - CI/CD
+   - 버전 관리 시스템
+     - Git 기본 사용법
+     - 저장소 호스팅 서비스
+       - GitHub
+   - 확장성 있는 구축
+     - 차이 이해하기
+       - Intrumentation
+       - Monitoring
+       - Telemetry
+     - 마이그레이션 전략
+       - 단계적 기능 축소(Graceful Degradation)
+       - 스로틀링(Throttling)
+       - Backpressure
+       - 서킷 브레이커(Circuit Breaker)
+     - 수평적 확장 vs 수직적 확장
+     - 관찰 가능성을 고려한 확장
+     </details>
+
+5. [네트워크(Network)](./Network/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - 인터넷
+   - HTML
+   - CSS
+   - JavaScript
+   - 네트워크 기본 개념
+   - API
+     - HATEOAS
+     - 오픈 API 명세와 Swagger
+     - 인증
+       - 쿠키 기반
+       - OAuth
+       - Basic 인증
+       - 토큰 인증
+       - JWT
+       - OpenID
+       - SAML
+     - REST
+     - JSON API
+     - SOAP
+     - gRPC
+     - GraphQL
+       - Apollo
+       - Relay Modem
+   - 캐시
+     - CDN
+     - 서버 사이드
+       - Redis
+       - Memcached
+     - 클라이언트 사이드
+   - 웹 보안 지식
+     - HTTPS
+     - CORS
+     - 콘텐츠 보안 정책(SCP)
+     - SSL/TLS
+     - OWASP 보안 취약점
+     - 해시 알고리즘
+       - MD5와 이를 사용하지 않는 이유
+       - SHA 함수군
+       - acrypt
+       - bcrypt
+   - 웹소켓
+   - 웹 서버
+     - Nginx
+     - Apache
+     - Caddy
+     - MS IIS
+     - [WEB 서버와 WAS를 분리하는 이유](./Network/contents/Reasons-for-separating-the-WEB-Server-and-WAS.md)
+     </details>
+
+6. [운영체제(OS)](./Operating-System/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - 터미널 사용법
+     - 터미널 기본 명령
+   - OS의 일반적인 작동 원리
+   - 프로세스 관리
+   - 스레드와 동시성
+     - [프로세스와 스레드의 차이](./Operating-System/contents/Difference-between-process-and-thread.md)
+   - 메모리 관리
+   - 프로세스 간 통신
+   - 입출력(I/O) 관리
+   - POSIX 기초  
+    stdin, stdout, stderr, pipes
+   </details>
+
+7. [데이터베이스(Database)](./Database/)
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - 관계형 데이터베이스
+     - MySQL
+     - MariaDB
+     - Oracle
+   - NoSQL 데이터베이스
+     - MongoDB
+   - 더 깊은 데이터베이스 지식
+     - ORM
+     - ACID
+     - 트랜잭션
+     - N+1 문제
+     - 데이터 레플리케이션
+     - 샤딩 전략
+     - CAP 이론
+   - 검색 엔진
+     - RDBMS와 검색 엔진의 차이
+     - Elasticsearch
+     - Solr
+   - 그래프 데이터베이스
+     - Neo4j
+     </details>
+
+8. 메시지 브로커
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - RabbitMQ
+   - Kafka
+   </details>
+
+9. 컨테이너화 vs 가상화
+   <details>
+   <summary>열기/접기</summary>
+   <div markdown="1">
+
+   - Docker
+   </details>

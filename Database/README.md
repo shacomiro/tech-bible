@@ -1,0 +1,22 @@
+# 데이터베이스(Database)
+
+- 관계형 데이터베이스
+  - MySQL
+  - MariaDB
+  - Oracle
+- NoSQL 데이터베이스
+  - MongoDB
+- 더 깊은 데이터베이스 지식
+  - ORM
+  - ACID
+  - 트랜잭션
+  - N+1 문제
+  - 데이터 레플리케이션
+  - 샤딩 전략
+  - CAP 이론
+- 검색 엔진
+  - RDBMS와 검색 엔진의 차이
+  - Elasticsearch
+  - Solr
+- 그래프 데이터베이스
+  - Neo4j

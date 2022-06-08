@@ -1,6 +1,6 @@
 # 알고리즘(Algorithms)
 
-> 알고리즘 분류 - [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519) 참조.
+> 아래의 목차는 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참조하여 작성되었습니다.
 
 - 수학(Mathmetics) #1
   - 순열(Permutation)

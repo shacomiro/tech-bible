@@ -1,0 +1,37 @@
+# 소프트웨어 공학(Software Engineering)
+
+- 개발·설계 원칙
+  - GOF 디자인 패턴
+  - 도메인 주도 설계(DDD)
+  - 테스트 주도 개발(TDD)
+  - SOLID
+  - KISS
+  - YAGNI
+  - DRY
+  - 아키텍처 패턴
+    - 모놀리식 애플리케이션
+    - 마이크로서비스
+    - SOA
+    - CQRS와 이벤트 소싱
+    - 서버리스
+- 테스트
+  - 통합(Intergration) 테스트
+  - 단위(Unit) 테스트
+  - 기능(Function) 테스트
+- CI/CD
+- 버전 관리 시스템
+  - Git 기본 사용법
+  - 저장소 호스팅 서비스
+    - GitHub
+- 확장성 있는 구축
+  - 차이 이해하기
+    - Intrumentation
+    - Monitoring
+    - Telemetry
+  - 마이그레이션 전략
+    - 단계적 기능 축소(Graceful Degradation)
+    - 스로틀링(Throttling)
+    - Backpressure
+    - 서킷 브레이커(Circuit Breaker)
+  - 수평적 확장 vs 수직적 확장
+  - 관찰 가능성을 고려한 확장
