@@ -1,28 +1,28 @@
 # 네트워크(Network)
 
 - 인터넷
-  - HTML
-  - CSS
-  - JavaScript
-  - 네트워크 기본 개념
-  - API
-    - HATEOAS
-    - 오픈 API 명세와 Swagger
-    - 인증
-      - 쿠키 기반
-      - OAuth
-      - Basic 인증
-      - 토큰 인증
-      - JWT
-      - OpenID
-      - SAML
-    - REST
-    - JSON API
-    - SOAP
-    - gRPC
-    - GraphQL
-      - Apollo
-      - Relay Modem
+- HTML
+- CSS
+- JavaScript
+- 네트워크 기본 개념
+- API
+  - HATEOAS
+  - 오픈 API 명세와 Swagger
+  - 인증
+    - 쿠키 기반
+    - OAuth
+    - Basic 인증
+    - 토큰 인증
+    - JWT
+    - OpenID
+    - SAML
+  - REST
+  - JSON API
+  - SOAP
+  - gRPC
+  - GraphQL
+    - Apollo
+    - Relay Modem
 - 캐시
   - CDN
   - 서버 사이드
