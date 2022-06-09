@@ -1,7 +1,5 @@
 # 동적 계획법(DP, Dynamic Programming) #1
 
-## 목차
-
 1. [개요](#개요)
 2. [접근](#접근)
 3. [구현](#구현)
@@ -10,6 +8,7 @@
       1. [메모이제이션(Memorization)](#메모이제이션memorization)
       1. [타뷸레이션(Tabulation)](#타뷸레이션tabulation)
 4. [기초적인 동적 계획법 문제들](#기초적인-동적-계획법-문제들)
+5. [참고 자료](#참고-자료)
 
 ## 개요
 
@@ -110,6 +109,6 @@ int fibonacci(int n) {
 - 최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ...
 - 부분집합(Subset)
 
-## 참고 서적/문서
+## 참고 자료
 
 - [20. 다이나믹 프로그래밍(Dynamic Programming)](https://blog.naver.com/ndb796/221233570962)

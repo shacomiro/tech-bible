@@ -1,7 +1,5 @@
 # WEB 서버와 WAS를 분리하는 이유
 
-## 목차
-
 1. [WEB 서버](#web-서버)
 2. [WAS](#was)
 3. [WEB 서버와 WAS의 차이](#web-서버와-was의-차이)
@@ -11,6 +9,7 @@
    3. [WEB 서버에 여러 WAS들을 연결 가능](#web-서버에-여러-was들을-연결-가능)
    4. [다수의 Web Application을 서비스 가능](#다수의-web-application을-서비스-가능)
 5. [풀스택을 프론트엔드-백엔드 분리 시 동작 원리](#풀스택을-프론트엔드-백엔드-분리-시-동작-원리)
+6. [참고 자료](#참고-자료)
 
 ## WEB 서버
 
@@ -74,7 +73,7 @@ Java Application, PHP Application과 같이 서로 다른 웹앱을 단일 `WEB 
 
 이같은 맥락에서 React, Vue, Angular 등을 SPA(Single Page Application)라고 부른다. 기본적인 정적 파일들(HTML, CSS, JS)만 제공받은 후 렌더링이 필요한 부분에 대해서만 직접 `백엔드 서버`에게 API 요청을 보내 리렌더링 하는 방식이기 때문이다. 한 번 받은 페이지를 깜빡거리는 일 없이 동적으로 제어가 가능해진다.
 
-## 참고 서적/문서
+## 참고 자료
 
 - [WEB서버 / WAS 분리 이유](https://velog.io/@change/WEB%EC%84%9C%EB%B2%84-WAS-%EB%B6%84%EB%A6%AC-%EC%9D%B4%EC%9C%A0)
 - [WEB과 WAS를 분리하는 이유](https://lurutia.tistory.com/864)

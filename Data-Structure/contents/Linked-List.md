@@ -1,7 +1,5 @@
 # 링크드 리스트(Linked List)
 
-## 목차
-
 1. [정의](#정의)
    1. [배열(Array)과의 차이점](#배열array과의-차이점)
 2. [특징](#특징)
@@ -9,6 +7,7 @@
    2. [단점](#단점)
 3. [활용](#활용)
 4. [시간복잡도와 공간복잡도](#시간복잡도와-공간복잡도)
+5. [참고 자료](#참고-자료)
 
 ## 정의
 
@@ -17,6 +16,10 @@
 추상적 자료형인 리스트를 구현한 자료구조로, Linked List라는 말 그대로 어떤 데이터 덩어리(이하 노드Node)를 저장할 때 그 다음 순서의 자료가 있는 위치를 데이터에 포함시키는 방식으로 자료를 저장한다.
 
 예를 들어 한 반에 있는 학생들의 자료를 저장한다면, 학생 하나하나의 신상명세 자료를 노드로 만들고, 1번 학생의 신상명세 자료에 2번 학생 신상명세가 어디있는지 표시를 해 놓는 방식이다. 쉽게 생각하면 자료를 비엔나 소시지마냥 줄줄이 엮어놓은 것이다.
+
+### 구현
+
+> [자료구조 : 연결리스트 (Linked list)](https://sycho-lego.tistory.com/17) 참고
 
 ### 배열(Array)과의 차이점
 
@@ -86,11 +89,12 @@
     | :----: |
     | `O(n)` |
 
-## 참고 서적/문서
+## 참고 자료
 
 - PRACTICAL DATA STRUCTURE 데이터 구조 - 오상엽, 장성식, 정호일 저
 - #정의
   - [자료 구조(Data Structure) 개념 및 종류 정리](https://bnzn2426.tistory.com/115)
+  - [자료구조 : 연결리스트 (Linked list)](https://sycho-lego.tistory.com/17)
 - #특징
   - [Linked-list](https://velog.io/@riceintheramen/Linked-list)
   - [[KR] 자료구조 & 알고리즘 : 링크드 리스트(Linked List)](https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/#5-%ec%a0%95%eb%a6%ac%ed%95%b4%eb%b3%b4%ea%b8%b0)

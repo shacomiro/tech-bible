@@ -1,16 +1,18 @@
 # 자바 버전별 특징
 
-## 목차
-
 1. [자바 버전의 현황](#자바-버전의-현황)
-2. [Java 1.8](#java-18-20140318-release)
-3. [Java 1.9](#java-19-20170921-release)
+2. [자바 버전 목록](#자바-버전-목록)
+   1. [Java 1.8](#java-18-20140318-release)
+   2. [Java 1.9](#java-19-20170921-release)
+3. [참고 자료](#참고-자료)
 
 ## 자바 버전의 현황
 
 자바는 현재 6개월마다 신규 버전이 출시되고 있다. 그러나 이렇게 출시되는 각 자바 버전이 모두 활용되지는 않고 대부분 장기 지원 버전(LTS, Long Term Support)이 프로젝트 개발에 주로 사용된다.
 
-## **Java 1.8 (2014.03.18 Release)**
+## 자바 버전 목록
+
+### **Java 1.8 (2014.03.18 Release)**
 
 일반 지원은 2015년 4월에 종료되었으며, 연장 지원은 2022년 7월에 종료될 예정이다.
 
@@ -118,7 +120,7 @@
   - 시간 간격에대한 개념이 섬세하게 정의되어 있으며 `Duration`, `Period`, `Interval` 등으로 역할을 분담한 클래스로 구현했다.
   - 그레고리력과 율리우스력뿐만 아니라 불교, 이슬람교, 콥트 교회, 에티오피아의 달력까지도 지원한다. 다양한 달력은 `org.joda.time.chrono.BaseChronology` 클래스의 하위 클래스로 구현되어 있다.
 
-## Java 1.9 (2017.09.21 Release)
+### Java 1.9 (2017.09.21 Release)
 
 일반 지원은 2018년 3월에 종료되었다.
 
@@ -141,7 +143,7 @@
 
 - 통합 JVM 로깅
 
-# 참고 서적/문서
+# 참고 자료
 
 - [Java 각 버전의 특징들 (~JAVA18)](https://marrrang.tistory.com/16)
 - [Java Versions and Features](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features)
