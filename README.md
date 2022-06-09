@@ -148,11 +148,25 @@
    <summary>열기/접기</summary>
    <div markdown="1">
 
-   - [Java](./Language/Java/)
-     - [Java 개요](./Language/Java/contents/Java-Overview.md)
-     - [Java 버전별 특징](./Language/Java/contents/Java-feature-by-version.md)
-   - JavaScript
-     </ditails>
+   - 프로그래밍 언어
+     - [Java](./Language/Java/)
+       - [Java 개요](./Language/Java/contents/Java-Overview.md)
+       - [Java 버전별 특징](./Language/Java/contents/Java-feature-by-version.md)
+     - JavaScript
+   - 마크업 언어
+     - XML
+     - HTML
+     - 마크다운
+   - 스타일 시트 언어
+     - CSS
+       - 디자인 라이브러리
+         - Bootstrap
+         - Sementic-UI
+         - W3.CSS
+       - 기능 보완 라이브러리
+         - Prefix Free
+         - Fontello
+           </ditails>
 
 4. 소프트웨어 공학
    <details>
@@ -208,8 +222,6 @@
      - DNS의 작동 원리
      - 도메인 이름이란?
      - 호스팅이란?
-   - HTML
-   - CSS
    - JavaScript
    - 네트워크 기본 개념
    - API
