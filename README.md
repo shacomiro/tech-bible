@@ -1,4 +1,6 @@
-# Tech Bible
+![tech-bible-banner](tech-bible-banner.png)
+
+## 소개
 
 개발/기술 지식의 기본 개념을 정리하는 저장소입니다.
 
@@ -6,7 +8,7 @@
 
 > 아래의 목차는 [백엔드 개발자 로드맵(by roadmap.sh)](https://roadmap.sh/backend)과 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참조하여 작성되었습니다.
 
-# 목차
+## 목차
 
 1. [자료구조(Data Structure)](./Data-Structure/)
    <details>
