@@ -43,7 +43,7 @@
        - 이분 검색(Binary Search)
    - 탐욕법(Greedy Algorithm)
    - 비트마스크(Bitmask)
-   - [다이나믹 프로그래밍(DP, Dynamic Programming) #1](./contents/Dynamic-Programming-01.md)
+   - [다이나믹 프로그래밍(DP, Dynamic Programming) #1](./Algorithms/contents/Dynamic-Programming-01.md)
      - _0-1 배낭 문제(0-1 Knapsack Problem)_
      - _최장 공통 부분 수열(LCS), 최장 증가 부분 수열(LIS), ..._
        - 시간복잡도 O(N^2)으로 해결하는 방법
@@ -75,7 +75,7 @@
        - 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm)
        - SPFA(Shortest Path Faster Algorithm)
      - 정렬(Sorting)
-       - [위상 정렬(Topological Sort)](./contents/Topological-Sort.md)
+       - [위상 정렬(Topological Sort)](./Algorithms/contents/Topological-Sort.md)
    - 정렬(Sorting)
      - 버블 정렬(Bubble Sort)
      - 삽입 정렬(Insert Sort)
@@ -114,7 +114,7 @@
    - 범위 쿼리(Range Query)
      - 세그먼트 트리(Segment Tree)
        - 세그먼트 트리 게으른 전파(Segment Tree Lazy Propagation)
-     - [투 포인터 알고리즘(Two Pointers Algorithm)](./contents/Two-Pointers.md)
+     - [투 포인터 알고리즘(Two Pointers Algorithm)](./Algorithms/contents/Two-Pointers.md)
      - 슬라이딩 윈도우 알고리즘(Sliding Window Algorithm)
    - 그래프(Graph) #2
      - 네트워크 흐름(Network Flow)
@@ -202,6 +202,12 @@
    <div markdown="1">
 
    - 인터넷
+     - [인터넷의 작동 원리](./Network/contents/How-does-the-internet-work.md)
+     - [HTTP란?](./Network/contents/What-is-HTTP.md)
+     - 브라우저의 작동 원리
+     - DNS의 작동 원리
+     - 도메인 이름이란?
+     - 호스팅이란?
    - HTML
    - CSS
    - JavaScript
