@@ -37,7 +37,7 @@
 
 ![from-program-to-process](./images/from-program-to-process.png)
 
-> 프로그램의 코드 덩어리 파일이며, 이를 실행한 것이 프로세스이다.
+> 프로그램은 코드 덩어리 파일이며, 이를 실행한 것이 프로세스이다.
 
 ## 참고 자료
 
