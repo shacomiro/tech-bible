@@ -7,7 +7,6 @@
   - DNS의 작동 원리
   - 도메인 이름이란?
   - 호스팅이란?
-- JavaScript
 - 네트워크 기본 개념
 - API
   - HATEOAS
