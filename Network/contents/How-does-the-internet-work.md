@@ -1,6 +1,7 @@
 # 인터넷의 작동 원리
 
 <small>
+<div markdown="1">
 
 1. [인터넷](#인터넷)
 2. [TCP/IP](#tcpip)
