@@ -28,13 +28,13 @@
    <div markdown="1">
 
    - 수학(Mathmetics) #1
-   - 순열(Permutation)
-   - 조합(Combination)
-   - 소수(Prime Number)
-     - 에라토스테네스의 체(Eratostheneen seula)
-   - 최대공약수와 최소공배수(GCD, LCM)
-     - 유클리드 호제법(Euclidean algorithm)
-   - 행렬(Matrix)
+     - 순열(Permutation)
+     - 조합(Combination)
+     - 소수(Prime Number)
+       - 에라토스테네스의 체(Eratostheneen seula)
+     - 최대공약수와 최소공배수(GCD, LCM)
+       - 유클리드 호제법(Euclidean algorithm)
+     - 행렬(Matrix)
    - 완전 탐색(Exhaustive Search)
      - 부르트-포스(Brute-Force)
      - 백트래킹(Backtracking)
