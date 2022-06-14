@@ -1,4 +1,4 @@
-cen# SOLID
+# SOLID
 
 1. [SOLID란?](#solid란)
 2. [SRP(단일 책임의 원칙, Single Responsibility Principle)](#srp단일-책임의-원칙-single-responsibility-principle)
@@ -39,7 +39,7 @@ SOLID는 입증된 객체 지향 프로그래밍 디자인 원리로 이를 사�
 
 아래 그림의 간단한 클래스를 살펴보자. 변화가 예상되는 부분이 있는가? 천천히 살펴보자.
 
-<center><img alt="그림1" src="./images/SOLID-01.png" width="50%"/></center>
+<center><img alt="그림1" src="./images/SOLID-01.png" width="45%"/></center>
 
 ```java
 class Guitar {
@@ -102,6 +102,8 @@ class GuitarSpec {
       this.topWood = topWood;
       this.stringNum = stringNum;
    }
+
+   ...
 }
 ```
 
