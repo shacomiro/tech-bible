@@ -4,7 +4,7 @@
   - GOF 디자인 패턴
   - 도메인 주도 설계(DDD)
   - 테스트 주도 개발(TDD)
-  - SOLID
+  - [SOLID](./contents/SOLID.md)
   - KISS
   - YAGNI
   - DRY

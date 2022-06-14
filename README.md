@@ -170,7 +170,7 @@
          - Fontello
            </ditails>
 
-4. 소프트웨어 공학
+4. [소프트웨어 공학](./Software-Engineering/)
    <details>
    <summary>열기/접기</summary>
    <div markdown="1">
@@ -179,7 +179,7 @@
      - GOF 디자인 패턴
      - 도메인 주도 설계(DDD)
      - 테스트 주도 개발(TDD)
-     - SOLID
+     - [SOLID](./Software-Engineering/contents/SOLID.md)
      - KISS
      - YAGNI
      - DRY
