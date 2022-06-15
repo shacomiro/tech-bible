@@ -6,7 +6,7 @@
 
 > 내용에 오류가 있거나 추가할 내용이 있다면 `Issue` 또는 `Pull Request`를 통해 알려주시면 감사하겠습니다.
 
-> Github 검색창에 `repo:ShaCoMiRo/tech-bible [검색단어] in:file` 명령어를 활용하면 본 저장소의 자료를 빠르게 검색할 수 있습니다. [Github 똑똑하게 검색하기](https://hirlawldo.tistory.com/128) 참고.
+> Github 검색창에 `repo:ShaCoMiRo/tech-bible 검색단어 in:file` 명령어를 활용하면 본 저장소의 자료를 빠르게 검색할 수 있습니다. [Github 똑똑하게 검색하기](https://hirlawldo.tistory.com/128) 참고.
 
 > 아래의 목차는 [백엔드 개발자 로드맵(by roadmap.sh)](https://roadmap.sh/backend)과 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참고하여 작성되었습니다.
 
