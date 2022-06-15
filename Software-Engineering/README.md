@@ -5,9 +5,10 @@
   - 도메인 주도 설계(DDD)
   - 테스트 주도 개발(TDD)
   - [SOLID](./contents/SOLID.md)
-  - KISS
-  - YAGNI
-  - DRY
+  - [소프트웨어 개발 3대 원칙](./contents/3-key-software-principles.md)
+    - [KISS](./contents/3-key-software-principles.md#kiss)
+    - [YAGNI](./contents/3-key-software-principles.md#yagni)
+    - [DRY](./contents/3-key-software-principles.md#dry)
   - 아키텍처 패턴
     - 모놀리식 애플리케이션
     - 마이크로서비스
