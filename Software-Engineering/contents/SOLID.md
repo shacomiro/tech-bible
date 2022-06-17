@@ -17,7 +17,12 @@
    2. [적용 방법](#적용-방법-2)
    3. [적용 사례](#적용-사례-2)
    4. [적용 이슈](#적용-이슈-2)
-5. [참고 자료](#참고-자료)
+5. [ISP(인터페이스 분리의 원칙, Interface Segregation Principle)](#isp인터페이스-분리의-원칙-interface-segregation-principle)
+   1. [정의](#정의-3)
+   2. [적용 방법](#적용-방법-3)
+   3. [적용 사례](#적용-사례-3)
+   4. [적용 이슈](#적용-이슈-3)
+6. [참고 자료](#참고-자료)
 
 ## SOLID란?
 
@@ -333,6 +338,69 @@ void modify(Collection collection) {
 3. 상속 구조가 필요하다면 Extract Subclass, Push Down Feild, Push Down Method 등의 리팩토링 기법을 이용하여 LSP를 준수하는 상속 계층 구조를 구성한다.
 4. IS-A 관계가 성립한다고 프로그램에서까지 그런것은 아니다. 관계 맺음은 이들의 역할과 서로간에 공유하는 연산의 유무, 그리고 연산이 어떻게 다른지를 종합적으로 검토해야 한다.
 5. Design by Contract("서브 클래스에서는 기반 클래스의 사전 조건과 같거나 더 약한 수준에서 사전 조건을 대체할 수 있고, 기반 클래스의 사후 조건과 같거나 더 강한 수준에서 사후 조건을 대체할 수 있다.") 적용 : 기반 클래스를 서브 클래스로 치환 가능하게하려면 받아들이는 선조건에서 서브 클래스의 제약사항이 기반 클래스의 제약사항보다 느슨하거나 같아야 한다. 만약 제약조건이 더 강하다면 기반 클래스에서 실행되던 것이 서브 클래스의 강조건으로 인해 실행되지 않을수도 있기 때문이다. 반면 서브 클래스의 후조건은 같거나 더 강해야 하는데, 약하다면 기반 클래스의 후조건이 통과시키지 않는 상태를 통과시킬수도 있기 때문이다.
+
+## ISP(인터페이스 분리의 원칙, Interface Segregation Principle)
+
+> Client should not be forced to depend upon interfaces that they do not use.  
+> 객체는 자신이 호출하지 않는 메소드에 의존하지 않아야 한다.
+
+### 정의
+
+ISP 원리는 한 클래스는 자신이 사용하지 않는 인터페이스는 구현하지 말아야 한다는 원리이다. 즉, 어떤 클래스가 다른 클래스에 종속될 때에는 가능한 최소한의 인터페이스만을 사용해야 한다. ISP를 '**하나의 일반적인 인터페이스보다는, 여러 개의 구체적인 인터페이스가 낫다.**'라고 정의할 수도 있다.
+
+만약 어떤 클래스를 이용하는 클라이언트가 여러 개고 이들이 해당 클래스의 특정 부분집합만을 이용한다면, 이들을 따로 인터페이스로 빼내어 클라이언트가 기대하는 메시지만을 전달할 수 있도록 한다. SRP가 클래스의 단일 책임을 강조한다면 ISP는 인터페이스의 단일 책임을 강조한다. 하지만 ISP는 어떤 클래스 혹은 인터페이스가 여러 책임이나 역할을 갖는 것을 인정한다. 이러한 경우 ISP가 사용되는데, SRP가 클래스 분리를 통해 변화로부터의 적응성을 획득하는 반면 ISP에서는 인터페이스 분리를 통해 같은 목표에 도달한다.
+
+### 적용 방법
+
+1. 클래스 인터페이스를 통한 분리
+   - 클래스의 상속을 이용하여 인터페이스를 나눌 수 있다.  
+     이와 같은 구조는 클라이언트에게 변화를 주지 않을뿐만 아니라 인터페이스르 분리하는 효과도 갖는다. 하지만 거의 모든 객체지향 언어에서는 상속을 이용한 확장은 상속받는 클래스의 성격을 디자인 시점에서 규정해버린다는 문제가 있다. 따라서 인터페이스를 상속받는 순간 인터페이스에 예속되어 제공하는 서비스의 성격이 제한된다.
+2. 객체 인터페이스를 통한 분리
+   - 위임(Delegation)을 이용하여 인터페이스를 나눌 수 있다.  
+     위임이란, 특정 일의 책임을 다른 클래스나 메소드에게 맡기는 것을 말한다. 만약 다른 클래스의 기능을 사용해야 하지만 그 기능을 변경하기는 싫은 경우, 상속 대신 위임을 사용한다.
+
+### 적용 예시
+
+대표적으로 `Java Swing`의 `JTable`을 예로 들 수 있다.
+
+`JTable` 클래스에는 굉장히 많은 메소드들이 있다. 컬럼을 추가하고 셀 에디터 리스너를 부착하는 등 여러 역할이 하나의 클래스 안에 혼재되어 있지만, `JTable`의 입장에서 본다면 모두 제공해야 하는 역할이다.
+
+`JTable`은 ISP가 제안하는 방식으로 모든 인터페이스 분리를 통해 특정 역할만을 이용할 수 있도록 해준다. 즉, `Accessible`, `CellEditorListener`, `ListSelectionListener`, `Scrollable`, `TableColumnModelListener`, `TableModelListener` 등 여러 인터페이스 구현을 통해 서비스를 제공한다.
+
+`JTable`은 자신을 이용하여 테이블을 만드는 객체, 즉 모든 서비스를 필요로 하는 객체에게는 기능 전부를 노출하지만, 이벤트 처리와 관련해서는 여러 리스너 인터페이스를 통해 해당 기능만 노출한다.
+
+```java
+import javax.swing.event.*;
+import javax.swing.table.TableModel;
+
+public class SimpleTableDemo ... implements TableModelListener {
+   ...
+   public SimpleTableDemo() {
+      ...
+      table.getModel().addTableModelListener(this);
+      ...
+   }
+
+   //인터페이스를 통해 노출할 기능을 구현
+   public void tableChanged(TableModelEvent e) {
+      int row = e.getFirstRow();
+      int column = e.getColumn();
+      TableModel model = (TableModel) e.getSource();
+      String columnName = model.getColumnName(column);
+      Object data = model.getValueAt(row, column);
+
+      //data를 활용한 작업 수행
+      ...
+   }
+   ...
+}
+```
+
+### 적용 이슈
+
+1. 기구현된 클라이언트의 변경을 유발해서는 안된다.
+2. 두 개 이상의 인터페이스가 공유하는 부분의 재사용성을 극대화한다.
+3. 서로 다른 성격의 인터페이스를 명백히 분리한다.
 
 ## 참고 자료
 
