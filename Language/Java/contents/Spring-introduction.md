@@ -3,6 +3,7 @@
 1. [프로젝트 환경설정](#프로젝트-환경설정)
    1. [개발 환경](#개발-환경)
    2. [프로젝트 생성](#프로젝트-생성)
+   3. [라이브러리 살펴보기](#라이브러리-살펴보기)
 2. [스프링 웹 개발 기초](#스프링-웹-개발-기초)
 3. [회원 관리 예제 - 백엔드 개발](#회원-관리-예제---백엔드-개발)
 4. [스프링 빈과 의존관계](#스프링-빈과-의존관계)
@@ -46,7 +47,7 @@
 - `Java` : `Java`를 사용할 경우, 사용할 언어의 버전.
 - `Dependencies`  
   사용하려는 라이브러리 종속성 목록.
-  - `Spring Web` : RESTful을 포함한 스프링 MVC 구조의 웹을 제작할 때 사용. Tomcat 자체 내장.
+  - `Spring Web` : RESTful을 포함한 스프링 MVC 구조의 웹을 제작할 때 사용. Tomcat 서버를 자체 내장.
   - `Thymeleaf` : HTML을 작성해주는 템플릿 엔진.
 
 원하는 구성요소 설정을 마친 후 `Generate` 버튼을 통해 프로젝트를 생성할 수 있다.
@@ -87,6 +88,27 @@ tasks.named('test') {
 2022-06-20 18:01:29.811  INFO 24120 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
 //8080포트로 HTTP 서버를 실행.
 ```
+
+### 라이브러리 살펴보기
+
+`Gradle`과 `Maven`은 의존관계가 있는 라이브러리를 함께 다운로드한다. 간단하게 말하면, 우리가 A라는 라이브러리를 필요로 할 때, A를 사용하기 위해 사전 요구되는 여러 라이브러리를 알아서 다운로드하는 역할을 `Gradle`이나 `Maven`과 같은 빌드 관리 도구들이 담당한다는 말이다.
+
+- **스프링 부트 라이브러리**
+  - `spring-boot-starter-web`
+    - `spring-boot-starter-tomcat` : 톰캣(웹서버)
+    - `spring-webmvc` : 스프링 웹 MVC
+  - `spring-boot-starter-thymeleaf` : 타임리프 템플릿 엔진(View)
+  - `spring-boot-starter`(공통) : 스프링 부트 + 스프링 코어 + 로깅
+    - `spring-boot`
+      - `spring-core`
+    - `spring-boot-starter-logging` : 개발시에는 단순 출력보다 로그가 권장됨
+      - `logback`, `slf4j`
+- **테스트 라이브러리**
+  - `spring-boot-starter-test`
+    - `junit` : 테스트 프레임워크
+    - `mockito` : 목 라이브러리
+    - `assertj` : 테스트 코드를 좀 더 편하게 작성하도록 도와주는 라이브러리
+    - `spring-test` : 스프링 통합 테스트 지원
 
 ## 스프링 웹 개발 기초
 
