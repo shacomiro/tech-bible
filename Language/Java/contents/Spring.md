@@ -1,7 +1,7 @@
 # Spring(스프링)
 
-- [스프링 입문 - 스프링부트](./Spring-introduction.md)
-  - [프로젝트 환경설정](./Spring-introduction.md#프로젝트-환경설정)
+- 스프링 입문 - 스프링부트
+  - [프로젝트 환경설정](./Spring-introduction-project-setting.md)
   - 스프링 웹 개발 기초
   - 회원 관리 예제 - 백엔드 개발
   - 스프링 빈과 의존관계

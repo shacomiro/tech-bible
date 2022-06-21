@@ -1,26 +1,20 @@
-# 스프링 입문
+# 스프링 입문 : 프로젝트 환경설정
 
-1. [프로젝트 환경설정](#프로젝트-환경설정)
-   1. [개발 환경](#개발-환경)
-   2. [프로젝트 생성](#프로젝트-생성)
-   3. [라이브러리 살펴보기](#라이브러리-살펴보기)
-2. [스프링 웹 개발 기초](#스프링-웹-개발-기초)
-3. [회원 관리 예제 - 백엔드 개발](#회원-관리-예제---백엔드-개발)
-4. [스프링 빈과 의존관계](#스프링-빈과-의존관계)
-5. [회원 관리 예제 - 웹 MVC 개발](#회원-관리-예제---웹-mvc-개발)
-6. [스프링 DB 접속 기술](#스프링-db-접속-기술)
-7. [AOP](#aop)
+1. [개발 환경](#개발-환경)
+2. [프로젝트 생성](#프로젝트-생성)
+3. [라이브러리 살펴보기](#라이브러리-살펴보기)
+4. [View 환경설정](#view-환경설정)
+   1. [Welcome Page 만들기](#welcome-page-만들기)
+5. [빌드하고 실행하기](#빌드하고-실행하기)
 
-## 프로젝트 환경설정
-
-### 개발 환경
+## 개발 환경
 
 - Java 11 이상
 - IDE : IntelliJ 또는 Eclipse
 
-### 프로젝트 생성
+## 프로젝트 생성
 
-![Spring-introduction-01](./images/Spring-introduction-01.png)
+![Spring-introduction-project-setting-01](./images/Spring-introduction-project-setting-01.png)
 
 - [스프링 부트 스타터](https://start.spring.io)  
   스프링 부트 기반의 프로젝트를 생성해주는 공식 사이트.
@@ -89,7 +83,7 @@ tasks.named('test') {
 //8080포트로 HTTP 서버를 실행.
 ```
 
-### 라이브러리 살펴보기
+## 라이브러리 살펴보기
 
 `Gradle`과 `Maven`은 의존관계가 있는 라이브러리를 함께 다운로드한다. 간단하게 말하면, 우리가 A라는 라이브러리를 필요로 할 때, A를 사용하기 위해 사전 요구되는 여러 라이브러리를 알아서 다운로드하는 역할을 `Gradle`이나 `Maven`과 같은 빌드 관리 도구들이 담당한다는 말이다.
 
@@ -110,14 +104,83 @@ tasks.named('test') {
     - `assertj` : 테스트 코드를 좀 더 편하게 작성하도록 도와주는 라이브러리
     - `spring-test` : 스프링 통합 테스트 지원
 
-## 스프링 웹 개발 기초
+## View 환경설정
 
-## 회원 관리 예제 - 백엔드 개발
+### Welcome Page 만들기
 
-## 스프링 빈과 의존관계
+```html
+<!--resources/static/index.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    Hello
+    <a href="/hello">hello</a>
+  </body>
+</html>
+```
 
-## 회원 관리 예제 - 웹 MVC 개발
+- 스프링 부트가 제공하는 Welcome Page 기능
+  - `static/index.html`을 올려두면 Welcome page 기능을 제공한다. [스프링부트 매뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page)
+- thymeleaf 템플릿 엔진
+  - 템플릿 엔진은 정적 페이지를 원하는대로 동적으로 구성하도록 도와주는 엔진.
+  - 스프링 부트에서는 Thymeleaf 외에도 FreeMarker, Groovy, Mustache 템플릿 엔진들을 지원한다.
+  - [thymeleaf 공식 사이트](https://www.thymeleaf.org)
+  - [스프링 공식 튜토리얼](https://spring.io/guides/gs/serving-web-content/)
+  - [스프링부트 메뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-template-engines)
 
-## 스프링 DB 접속 기술
+```java
+@Controller
+public class HelloController {
 
-## AOP
+  @GetMapping("Hello")
+  public String hello(Model model) {
+    model.addAttribute("data", "hello!!");
+    return "hello";
+  }
+}
+```
+
+```html
+<!--resources/templates/hello.html-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p th:text="'안녕하세요. ' + ${data}">안녕하세요. 손님</p>
+  </body>
+</html>
+```
+
+thymeleaf 템플릿 엔진의 동작 환경은 아래와 같다.
+
+![Spring-introduction-project-setting-02](./images/Spring-introduction-project-setting-02.png)
+
+1. 웹브라우저의 `localhost:8080/hello` URL 요청을 톰캣 서버에서 받는다.
+2. 톰캣 서버는 전체 URL 중 `/hello`를 스프링에게 전달한다.
+3. 스프링은 전달된 URL와 매칭되는 컨트롤러 메소드를 실행한다.
+4. 스프링은 `Model`에 `data: "hello!"` 의 키:값 쌍을 가지는 데이터를 담는다.
+5. 스프링은 렌더링 할 파일명을 리턴한다. (`resources/template/hello.html`으로 이동해서 렌더링)  
+   스프링 부트는 기본값으로 `resources/templates` 디렉터리에서 파일을 찾으므로, 이에 맞추어 상대경로를 지정해야 한다.
+   - 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버(`viewResolver`)가 화면을 찾아서 처리한다.
+     - 스프링 부트 템플릿 엔진 기본 viewName 매핑
+     - `resources:templates/` + {ViewName} + `.html`
+
+> **참고**  
+> `spring-boot-devtools` 라이브러리를 추가하면, `html` 파일을 컴파일만 해주면 서버 재시작 없이 View 파일 변경이 가능하다.  
+> IntelliJ 컴파일 방법 : 메뉴 build > Recompile
+
+## 빌드하고 실행하기
+
+1. 콘솔로 프로젝트 디렉터리로 이동.
+2. `./gradlew build`
+3. `cd build/libs`
+4. `java -jar hello-spring-0.0.1-SNAPSHOT.jar`
+5. 실행 확인
+6. 문제 발생시 `./gradlew clean build` 수행. (build 디렉터리를 완전히 지우고 다시 빌드)
