@@ -124,7 +124,7 @@ tasks.named('test') {
 ```
 
 - 스프링 부트가 제공하는 Welcome Page 기능
-  - `static/index.html`을 올려두면 Welcome page 기능을 제공한다. [스프링부트 매뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page)
+  - `static/index.html`을 올려두면 Welcome page 기능을 제공한다. [스프링부트 메뉴얼](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page)
 - thymeleaf 템플릿 엔진
   - 템플릿 엔진은 정적 페이지를 원하는대로 동적으로 구성하도록 도와주는 엔진.
   - 스프링 부트에서는 Thymeleaf 외에도 FreeMarker, Groovy, Mustache 템플릿 엔진들을 지원한다.
@@ -158,7 +158,7 @@ public class HelloController {
 </html>
 ```
 
-thymeleaf 템플릿 엔진의 동작 환경은 아래와 같다.
+스프링 부트의 동작 과정은 아래와 같다.
 
 ![Spring-introduction-project-setting-02](./images/Spring-introduction-project-setting-02.png)
 
