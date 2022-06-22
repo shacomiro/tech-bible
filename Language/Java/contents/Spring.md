@@ -4,7 +4,7 @@
   - [프로젝트 환경설정](./Spring-introduction-project-setting.md)
   - [스프링 웹 개발 기초](./Spring-introduction-spring-web-dev-basic.md)
   - 회원 관리 예제 - 백엔드 개발
-  - 스프링 빈과 의존관계
+  - [스프링 빈과 의존관계](./Spring-introduction-spring-bean-and-dependency.md)
   - 회원 관리 예제 - 웹 MVC 개발
   - 스프링 DB 접속 기술
   - AOP
