@@ -6,7 +6,7 @@
   - 회원 관리 예제 - 백엔드 개발
   - [스프링 빈과 의존관계](./Spring-introduction-spring-bean-and-dependency.md)
   - 회원 관리 예제 - 웹 MVC 개발
-  - 스프링 DB 접속 기술
+  - [스프링 DB 접속 기술](./Spring-introduction-spring-db-access-technology.md)
   - AOP
 - 스프링 핵심 원리 - 기본
   - 객체 지향 설계와 스프링
