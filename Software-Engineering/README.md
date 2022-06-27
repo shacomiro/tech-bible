@@ -19,6 +19,9 @@
   - 통합(Intergration) 테스트
   - 단위(Unit) 테스트
   - 기능(Function) 테스트
+- 빌드
+  - Maven
+  - Gradle
 - CI/CD
 - 버전 관리 시스템
   - Git 기본 사용법

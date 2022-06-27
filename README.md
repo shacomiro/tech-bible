@@ -22,7 +22,18 @@
      - 선형 자료구조
        - [배열(Array)](./Data-Structure/contents/Arrays.md)
        - [링크드 리스트(Linked List)](./Data-Structure/contents/Linked-List.md)
-       </details>
+       - 스택(Stack)
+       - 큐(Queue)
+       - 데크(Deque)
+       - 해시 테이블(Hash Table)
+     - 비선형 자료구조
+       - 트리(Tree)
+         - 이진 탐색 트리(BTS, Binary Search Tree)
+       - 그래프(Graph)
+   - 비교
+     - 배열 vs 링크드 리스트
+     - 큐 vs 우선순위 큐
+     </details>
 
 2. [알고리즘(Algorithms)](./Algorithms/)
    <details>
@@ -212,6 +223,9 @@
      - 단위(Unit) 테스트
      - 기능(Function) 테스트
    - CI/CD
+   - 빌드
+     - Maven
+     - Gradle
    - 버전 관리 시스템
      - Git 기본 사용법
      - 저장소 호스팅 서비스
@@ -254,6 +268,9 @@
        - JWT
        - OpenID
        - SAML
+     - 명세 자동화
+       - Swagger
+       - Spring REST Docs
      - REST
      - JSON API
      - SOAP
@@ -318,6 +335,9 @@
      - MongoDB
    - 더 깊은 데이터베이스 지식
      - ORM
+       - JPA
+     - OM(Object Mapping)
+       - MyBatis
      - ACID
      - 트랜잭션
      - N+1 문제

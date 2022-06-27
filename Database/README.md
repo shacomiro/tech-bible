@@ -8,6 +8,9 @@
   - MongoDB
 - 더 깊은 데이터베이스 지식
   - ORM
+    - JPA
+  - OM(Object Mapping)
+    - MyBatis
   - ACID
   - 트랜잭션
   - N+1 문제

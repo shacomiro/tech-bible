@@ -1,7 +1,5 @@
 # 알고리즘(Algorithms)
 
-> 아래의 목차는 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참조하여 작성되었습니다.
-
 - 수학(Mathmetics) #1
   - 순열(Permutation)
   - 조합(Combination)
@@ -118,3 +116,11 @@
     - 크누스 최적화(Knuth Optimization)
     - 분할 정복 최적화(Dvide & Conquer Optimization)
     - 컨벡스 헐 최적화(Convex Hull Optimization)
+
+## 알고리즘 공부에 도움이 되는 참고 자료들
+
+- [2020년 주요 기업 코딩테스트 유형 분석 및 후기](https://suhwanc.tistory.com/153)
+- [내가 정리하는 코딩테스트 문제 유형 별 풀이 방법](https://myeongmy.tistory.com/55)
+- [알고리즘 구현 시 자주 등장하는 유형(개념) - JAVA](https://myeongmy.tistory.com/9)
+- [[취업 준비] 신입 개발자 알고리즘 팁 정리 및 문제 추천](https://mangkyu.tistory.com/181)
+- [코딩테스트 준비방법 및 알고리즘 공부](https://090k.tistory.com/32)

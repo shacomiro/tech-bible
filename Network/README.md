@@ -19,6 +19,9 @@
     - JWT
     - OpenID
     - SAML
+  - 명세 자동화
+    - Swagger
+    - Spring REST Docs
   - REST
   - JSON API
   - SOAP
