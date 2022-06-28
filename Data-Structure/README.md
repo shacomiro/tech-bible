@@ -4,6 +4,7 @@
 - 분류
   - 선형 자료구조
     - [배열(Array)](./contents/Arrays.md)
+      - [동적 배열](./contents/Dynamic-Array.md)
     - [링크드 리스트(Linked List)](./contents/Linked-List.md)
     - 스택(Stack)
     - 큐(Queue)
