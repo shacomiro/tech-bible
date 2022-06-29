@@ -28,7 +28,7 @@
      - 비선형 자료구조
        - 트리(Tree)
          - 완전 이진 트리
-           - 힙(Heap)
+           - [힙(Heap)](./Data-Structure/contents/Heap.md)
          - 이진 탐색 트리(BTS, Binary Search Tree)
        - 그래프(Graph)
    - 비교
