@@ -6,14 +6,16 @@
     - [배열(Array)](./contents/Arrays.md)
       - [동적 배열(Dynamic Array)](./contents/Dynamic-Array.md)
     - [링크드 리스트(Linked List)](./contents/Linked-List.md)
-    - 스택(Stack)
-    - 큐(Queue)
-    - 데크(Deque)
+    - [스택(Stack)](./contents/Stack.md)
+    - [큐(Queue)](./contents/Queue.md)
+    - 데큐(Deque)
     - 해시 테이블(Hash Table)
   - 비선형 자료구조
     - 트리(Tree)
+      - 완전 이진 트리
+        - 힙(Heap)
       - 이진 탐색 트리(BTS, Binary Search Tree)
     - 그래프(Graph)
 - 비교
   - [배열 vs 링크드 리스트](./contents/Array-vs-Linked-List.md)
-  - 큐 vs 우선순위 큐
+  - [큐 vs 우선순위 큐](./contents/Queue-vs-Priority-Queue.mdㅋ)
