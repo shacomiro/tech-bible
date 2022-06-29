@@ -6,8 +6,6 @@
 
 > 내용에 오류가 있거나 추가할 내용이 있다면 `Issue` 또는 `Pull Request`를 통해 알려주시면 감사하겠습니다.
 
-> Github 검색창에 `repo:ShaCoMiRo/tech-bible 검색단어 in:file` 명령어를 활용하면 본 저장소의 자료를 빠르게 검색할 수 있습니다. [Github 똑똑하게 검색하기](https://hirlawldo.tistory.com/128) 참고.
-
 > 아래의 목차는 [백엔드 개발자 로드맵(by roadmap.sh)](https://roadmap.sh/backend)과 [알고리즘 공부 리스트 및 순서 (Algorithm Problem Solving Roadmap)](https://stack07142.tistory.com/228?category=234519)를 참고하여 작성되었습니다.
 
 ## 목차
@@ -21,7 +19,7 @@
    - 분류
      - 선형 자료구조
        - [배열(Array)](./Data-Structure/contents/Arrays.md)
-         - [동적 배열](./Data-Structure/contents/Dynamic-Array.md)
+         - [동적 배열(Dynamic Array)](./Data-Structure/contents/Dynamic-Array.md)
        - [링크드 리스트(Linked List)](./Data-Structure/contents/Linked-List.md)
        - 스택(Stack)
        - 큐(Queue)
@@ -32,7 +30,7 @@
          - 이진 탐색 트리(BTS, Binary Search Tree)
        - 그래프(Graph)
    - 비교
-     - 배열 vs 링크드 리스트
+     - [배열 vs 링크드 리스트](./Data-Structure/contents/Array-vs-Linked-List.md)
      - 큐 vs 우선순위 큐
      </details>
 

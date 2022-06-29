@@ -4,7 +4,7 @@
 - 분류
   - 선형 자료구조
     - [배열(Array)](./contents/Arrays.md)
-      - [동적 배열](./contents/Dynamic-Array.md)
+      - [동적 배열(Dynamic Array)](./contents/Dynamic-Array.md)
     - [링크드 리스트(Linked List)](./contents/Linked-List.md)
     - 스택(Stack)
     - 큐(Queue)
@@ -15,5 +15,5 @@
       - 이진 탐색 트리(BTS, Binary Search Tree)
     - 그래프(Graph)
 - 비교
-  - 배열 vs 링크드 리스트
+  - [배열 vs 링크드 리스트](./contents/Array-vs-Linked-List.md)
   - 큐 vs 우선순위 큐
