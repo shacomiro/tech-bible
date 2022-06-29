@@ -18,4 +18,4 @@
     - 그래프(Graph)
 - 비교
   - [배열 vs 링크드 리스트](./contents/Array-vs-Linked-List.md)
-  - [큐 vs 우선순위 큐](./contents/Queue-vs-Priority-Queue.mdㅋ)
+  - [큐 vs 우선순위 큐](./contents/Queue-vs-Priority-Queue.md)
