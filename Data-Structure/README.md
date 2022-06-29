@@ -14,7 +14,7 @@
     - 트리(Tree)
       - 완전 이진 트리
         - [힙(Heap)](./contents/Heap.md)
-      - 이진 탐색 트리(BTS, Binary Search Tree)
+      - [이진 탐색 트리(BTS, Binary Search Tree)](./contents/Binary-Search-Tree.md)
     - 그래프(Graph)
 - 비교
   - [배열 vs 링크드 리스트](./contents/Array-vs-Linked-List.md)
