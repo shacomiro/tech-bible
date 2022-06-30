@@ -24,7 +24,7 @@
        - [스택(Stack)](./Data-Structure/contents/Stack.md)
        - [큐(Queue)](./Data-Structure/contents/Queue.md)
        - 데큐(Deque)
-       - 해시 테이블(Hash Table)
+       - [해시 테이블(Hash Table)](./Data-Structure/contents/Hash-Table.md)
      - 비선형 자료구조
        - 트리(Tree)
          - 완전 이진 트리

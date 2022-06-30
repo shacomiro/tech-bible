@@ -9,7 +9,7 @@
     - [스택(Stack)](./contents/Stack.md)
     - [큐(Queue)](./contents/Queue.md)
     - 데큐(Deque)
-    - 해시 테이블(Hash Table)
+    - [해시 테이블(Hash Table)](./contents/Hash-Table.md)
   - 비선형 자료구조
     - 트리(Tree)
       - 완전 이진 트리
