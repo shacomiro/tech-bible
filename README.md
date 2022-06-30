@@ -12,7 +12,7 @@
 
 1. [자료구조(Data Structure)](./Data-Structure/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - [자료구조 개요](./Data-Structure/contents/Datastructure-overview.md)
@@ -38,7 +38,7 @@
 
 2. [알고리즘(Algorithms)](./Algorithms/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 수학(Mathmetics) #1
@@ -161,7 +161,7 @@
 
 3. [언어(Language)](./Language/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 프로그래밍 언어
@@ -201,7 +201,7 @@
 
 4. [소프트웨어 공학](./Software-Engineering/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 개발·설계 원칙
@@ -247,7 +247,7 @@
 
 5. [네트워크(Network)](./Network/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 인터넷
@@ -307,15 +307,18 @@
 
 6. [운영체제(OS)](./Operating-System/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 터미널 사용법
      - 터미널 기본 명령
    - OS의 일반적인 작동 원리
-   - 프로세스 관리
-   - 스레드와 동시성
-     - [프로세스와 스레드의 차이](./Operating-System/contents/Difference-between-process-and-thread.md)
+   - [프로세스](./Operating-System/contents/Process.md)
+     - 프로세스 관리
+     - 프로세스 간 통신
+   - 스레드
+     - 스레드와 동시성
+   - [프로세스와 스레드의 차이](./Operating-System/contents/Difference-between-process-and-thread.md)
    - 메모리 관리
    - 프로세스 간 통신
    - 입출력(I/O) 관리
@@ -325,7 +328,7 @@
 
 7. [데이터베이스(Database)](./Database/)
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - 관계형 데이터베이스
@@ -355,7 +358,7 @@
 
 8. 메시지 브로커
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - RabbitMQ
@@ -364,7 +367,7 @@
 
 9. 컨테이너화 vs 가상화
    <details>
-   <summary>열기/접기</summary>
+   <summary>[열기/접기]</summary>
    <div markdown="1">
 
    - Docker
