@@ -3,12 +3,12 @@
 - 터미널 사용법
   - 터미널 기본 명령
 - OS의 일반적인 작동 원리
-- [프로세스](./contents/Process.md)
+- [프로세스와 스레드](./contents/Process-and-Thread.md)
   - 프로세스 관리
   - 프로세스 간 통신
-- 스레드
   - 스레드와 동시성
-- [프로세스와 스레드의 차이](./contents/Difference-between-process-and-thread.md)
+- 동기화
+- 교착 상태
 - 메모리 관리
 - 입출력(I/O) 관리
 - POSIX 기초  
