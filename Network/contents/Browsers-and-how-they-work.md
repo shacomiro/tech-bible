@@ -17,6 +17,7 @@
 6. [Reflow와 Repaint](#reflow와-repaint)
    1. [Repaint](#repaint)
    2. [Reflow](#reflow)
+7. [참고 자료](#참고-자료)
 
 ## 브라우저란?
 
@@ -197,7 +198,7 @@ CSSOM 트리와 DOM 트리를 결합하여, 표시해야 할 순서로 내용을
 
 이외에도 화면의 구조가 변경되었다면 Reflow가 발생한다고 이해하면 된다.
 
-## 참고 문서
+## 참고 자료
 
 - [웹 브라우저](https://ko.wikipedia.org/wiki/%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80)
 - [브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
