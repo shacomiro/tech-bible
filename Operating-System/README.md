@@ -8,7 +8,7 @@
   - 프로세스 간 통신
   - 스레드와 동시성
 - [동기화 문제](./contents/Synchronization-problem.md)
-- 교착 상태
+- [교착 상태](./contents/Deadlock.md)
 - 메모리 관리
 - 입출력(I/O) 관리
 - POSIX 기초  
