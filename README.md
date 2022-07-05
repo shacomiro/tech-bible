@@ -320,6 +320,9 @@
    - [동기화 문제](./Operating-System/contents/Synchronization-problem.md)
    - [교착 상태](./Operating-System/contents/Deadlock.md)
    - 메모리 관리
+     - [페이징](./Operating-System/contents/Paging.md)
+     - [세그먼테이션](./Operating-System/contents/Segmentation.md)
+     - [가상 메모리](./Operating-System/contents/Virtual-memory.md)
    - 입출력(I/O) 관리
    - POSIX 기초  
     stdin, stdout, stderr, pipes

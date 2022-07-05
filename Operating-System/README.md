@@ -10,6 +10,9 @@
 - [동기화 문제](./contents/Synchronization-problem.md)
 - [교착 상태](./contents/Deadlock.md)
 - 메모리 관리
+  - [페이징](./contents/Paging.md)
+  - [세그먼테이션](./contents/Segmentation.md)
+  - [가상 메모리](./contents/Virtual-memory.md)
 - 입출력(I/O) 관리
 - POSIX 기초  
   stdin, stdout, stderr, pipes
