@@ -329,33 +329,50 @@
    </details>
 
 7. [데이터베이스(Database)](./Database/)
-   <details>
-   <summary>[열기/접기]</summary>
-   <div markdown="1">
+    <details>
+    <summary>[열기/접기]</summary>
+    <div markdown="1">
 
+   - 기초 데이터베이스 지식
+     - 데이터베이스 기본 개념
+     - 데이터베이스 관리 시스템(DBMS)
+     - 데이터 모델링
+       - 개체-관계 모델
+     - [관계 데이터 모델](./Database/contents/Relational-Data-Model.md)
+       - [기본 용어](./Database/contents/Relational-Data-Model.md#관계-데이터-모델의-기본-용어)
+       - [릴레이션의 특징](./Database/contents/Relational-Data-Model.md#릴리이션의-특징)
+       - [키의 종류](./Database/contents/Relational-Data-Model.md#릴리이션의-특징)
+     - 관계 데이터 연산
+     - 데이터베이스 언어 SQL
+     - 데이터베이스 설계
+     - 정규화
+     - 회복과 병행 제어
+       - 트랜잭션
+         - ACID
+     - 보안과 권한 관리
+   - 더 깊은 데이터베이스 지식
+     - 인덱스
+     - SQL 심화
+     - N+1 문제
+     - 데이터 레플리케이션
+     - 샤딩 전략
+     - CAP 이론
    - 관계형 데이터베이스
      - MySQL
      - MariaDB
      - Oracle
    - NoSQL 데이터베이스
      - MongoDB
-   - 더 깊은 데이터베이스 지식
-     - ORM
-       - JPA
-     - OM(Object Mapping)
-       - MyBatis
-     - ACID
-     - 트랜잭션
-     - N+1 문제
-     - 데이터 레플리케이션
-     - 샤딩 전략
-     - CAP 이론
    - 검색 엔진
      - RDBMS와 검색 엔진의 차이
      - Elasticsearch
      - Solr
    - 그래프 데이터베이스
      - Neo4j
+   - ORM
+     - JPA
+   - SQL Mapper
+     - MyBatis
      </details>
 
 8. 메시지 브로커
