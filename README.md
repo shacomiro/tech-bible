@@ -336,12 +336,12 @@
    - 기초 데이터베이스 지식
      - 데이터베이스 기본 개념
      - 데이터베이스 관리 시스템(DBMS)
-     - 데이터 모델링
-       - 개체-관계 모델
+     - [데이터 모델링](./Database/contents/Data-Modeling.md)
+       - [개체-관계 모델](./Database/contents/Data-Modeling.md#개체-관계-모델)
      - [관계 데이터 모델](./Database/contents/Relational-Data-Model.md)
        - [기본 용어](./Database/contents/Relational-Data-Model.md#관계-데이터-모델의-기본-용어)
        - [릴레이션의 특징](./Database/contents/Relational-Data-Model.md#릴리이션의-특징)
-       - [키의 종류](./Database/contents/Relational-Data-Model.md#릴리이션의-특징)
+       - [키의 종류](./Database/contents/Relational-Data-Model.md#키의-종류)
      - 관계 데이터 연산
      - 데이터베이스 언어 SQL
      - 데이터베이스 설계
