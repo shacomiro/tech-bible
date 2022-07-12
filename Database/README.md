@@ -32,7 +32,6 @@
 - NoSQL 데이터베이스
   - MongoDB
 - 검색 엔진
-  - RDBMS와 검색 엔진의 차이
   - Elasticsearch
   - Solr
 - 그래프 데이터베이스
@@ -41,3 +40,6 @@
   - JPA
 - SQL Mapper
   - MyBatis
+- 비교
+  - [RDB와 NoSQL의 차이](./contents/RDB-vs-NoSQL.md)
+  - RDBMS와 검색 엔진의 차이
