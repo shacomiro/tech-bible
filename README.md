@@ -346,9 +346,9 @@
      - 데이터베이스 언어 SQL
      - 데이터베이스 설계
      - 정규화
-     - 회복과 병행 제어
-       - 트랜잭션
-         - ACID
+     - [회복과 병행 제어](./Database/contents/Recovery-and-Concurrency-Control.md)
+       - [트랜잭션](./Database/contents/Recovery-and-Concurrency-Control.md#트랜잭션transaction)
+         - [ACID](./Database/contents/Recovery-and-Concurrency-Control.md#트랜잭션의-4가지-특성)
      - 보안과 권한 관리
    - 더 깊은 데이터베이스 지식
      - 인덱스
