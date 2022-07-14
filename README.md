@@ -351,7 +351,7 @@
          - [ACID](./Database/contents/Recovery-and-Concurrency-Control.md#트랜잭션의-4가지-특성)
      - 보안과 권한 관리
    - 더 깊은 데이터베이스 지식
-     - 인덱스
+     - [인덱스](./Database/contents/Index.md)
      - SQL 심화
        - [조인(Join)](./Database/contents/Join.md)
      - N+1 문제
