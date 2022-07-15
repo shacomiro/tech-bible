@@ -123,7 +123,7 @@ ON A.NO_EMP = B.NO_EMP
 
 - **모든 경우의 수를 표현하는 조인**이다.
 - 기준 테이블이 `TABLE_A`일 경우, `TABLE_A`의 특정 데이터(ROW)를 `TABLE_B`의 테이블 전체와 조인하는 방식이다.
-- 위 그림과 같은 경우 `TABLE_A`에 데이터 3개, `TABLE_B`에 데이터 3개가 있으므로 총 9개가 검색된다.
+- 위 그림과 같은 경우 `TABLE_A`에 데이터 3개, `TABLE_B`에 데이터 4개가 있으므로 총 12개가 검색된다.
 
 ```sql
 --TABLE_A와 TABLE_B를 CROSS JOIN--
@@ -142,9 +142,9 @@ CROSS JOIN TABLE_B B
 
 ```sql
 --TABLE_A를 SELF JOIN--
-SELECT A.NAME, B.NAME SUPERIOR
-FROM TABLE_A A
-SELF JOIN TABLE_A B
+SELECT A1.NAME, A2.NAME SUPERIOR
+FROM TABLE_A A1
+SELF JOIN TABLE_A A2
 ```
 
 ## 참고 자료
