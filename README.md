@@ -258,6 +258,8 @@
      - 도메인 이름이란?
      - 호스팅이란?
    - 네트워크 기본 개념
+     - [OSI 7계층과 TCP/IP 4계층](./Network/contents/OSI-7-Layer-and-TCPIP-4-Layer.md)
+       - [캡슐화와 역캡슐화](./Network/contents/OSI-7-Layer-and-TCPIP-4-Layer.md#캡슐화encapsulation와-역캡슐화decapsulation)
    - API
      - HATEOAS
      - 오픈 API 명세와 Swagger
