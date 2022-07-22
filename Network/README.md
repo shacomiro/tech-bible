@@ -2,6 +2,7 @@
 
 - 인터넷
   - [인터넷의 작동 원리](./contents/How-does-the-internet-work.md)
+  - [웹의 작동 원리](./contents/How-WEB-work.md)
   - [HTTP란?](./contents/What-is-HTTP.md)
   - [브라우저의 작동 원리](./contents/Browsers-and-how-they-work.md)
   - DNS의 작동 원리
