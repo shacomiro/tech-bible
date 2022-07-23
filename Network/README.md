@@ -18,7 +18,7 @@
   - HATEOAS
   - 오픈 API 명세와 Swagger
   - 인증
-    - 쿠키 기반
+    - [쿠키 기반 인증](./contents/Cookie-based-authentication.md)
     - OAuth
     - Basic 인증
     - 토큰 인증
