@@ -10,7 +10,7 @@
     - 컴파일 타임과 런타임 타임
     - 내부 JVM의 구조
       - 운영체제와의 연관성
-    - GC
+    - [가비지 컬렉션(GC)](./Java/contents/Garbage-Collection.md)
     - 메모리 저장
     - 람다
     - 함수형 프로그래밍
