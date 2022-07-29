@@ -1,5 +1,7 @@
 # 언어(Language)
 
+- 공통
+  - 컴파일 타임과 런타임
 - 프로그래밍 언어
   - [Java](./Java/)
     - [Java 개요](./contents/Java-Overview.md)
@@ -7,7 +9,6 @@
     - Java 자료구조
       - 기본 타입
       - 참조 타입
-    - 컴파일 타임과 런타임 타임
     - [JVM](./Java/contents/JVM.md)
       - 운영체제와의 연관성
     - [가비지 컬렉션(GC)](./Java/contents/Garbage-Collection.md)

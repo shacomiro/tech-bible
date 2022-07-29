@@ -164,6 +164,8 @@
    <summary>[열기/접기]</summary>
    <div markdown="1">
 
+   - 공통
+     - [컴파일 타임과 런타임](./Language/Common/Comfile-time-and-Runtime.md)
    - 프로그래밍 언어
      - [Java](./Language/Java/)
        - [Java 개요](./Language/Java/contents/Java-Overview.md)
@@ -171,7 +173,6 @@
        - Java 자료구조
          - 기본 타입
          - 참조 타입
-       - 컴파일 타임과 런타임 타임
        - [JVM](./Language/Java/contents/JVM.md)
          - 운영체제와의 연관성
        - [가비지 컬렉션(GC)](./Language/Java/contents/Garbage-Collection.md)

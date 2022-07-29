@@ -5,7 +5,6 @@
 - Java 자료구조
   - 기본 타입
   - 참조 타입
-- 컴파일 타임과 런타임 타임
 - [JVM](./contents/JVM.md)
   - 운영체제와의 연관성
 - [가비지 컬렉션(GC)](./contents/Garbage-Collection.md)
