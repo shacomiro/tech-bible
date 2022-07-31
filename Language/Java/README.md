@@ -8,7 +8,7 @@
 - [JVM](./contents/JVM.md)
   - 운영체제와의 연관성
 - [가비지 컬렉션(GC)](./contents/Garbage-Collection.md)
-- 메모리 저장
+- [메모리 관리](./contents/Java-memory-management.md)
 - 람다
 - 함수형 프로그래밍
 - 스트림
