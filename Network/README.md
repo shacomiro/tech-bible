@@ -16,18 +16,17 @@
     - [4-Way Handshake](./contents/TCP-and-UDP.md#4-way-handshake)
 - API
   - HATEOAS
-  - 오픈 API 명세와 Swagger
-  - 인증
-    - [쿠키 기반 인증](./contents/Cookie-based-authentication.md)
-    - OAuth
-    - Basic 인증
-    - 토큰 인증
-    - JWT
-    - OpenID
-    - SAML
-  - 명세 자동화
+  - 오픈 API 명세
     - Swagger
     - Spring REST Docs
+  - 인증
+    - Basic 인증
+    - [쿠키 기반 인증](./Network/contents/Cookie-based-authentication.md)
+    - 토큰 기반 인증
+      - JWT
+      - OAuth
+    - OpenID
+    - SAML
   - REST
   - JSON API
   - SOAP
@@ -43,7 +42,7 @@
   - 클라이언트 사이드
 - 웹 보안 지식
   - HTTPS
-  - CORS
+  - 교차 출처 리소스 공유(CORS)
   - 콘텐츠 보안 정책(SCP)
   - SSL/TLS
   - OWASP 보안 취약점
