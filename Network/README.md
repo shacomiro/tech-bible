@@ -5,7 +5,7 @@
   - [웹의 작동 원리](./contents/How-WEB-work.md)
   - [HTTP란?](./contents/What-is-HTTP.md)
   - [브라우저의 작동 원리](./contents/Browsers-and-how-they-work.md)
-  - DNS의 작동 원리
+  - [DNS의 작동 원리](./contents/How-does-the-DNS-work.md)
   - 도메인 이름이란?
   - 호스팅이란?
 - 네트워크 기본 개념
