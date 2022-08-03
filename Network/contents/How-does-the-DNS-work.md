@@ -18,16 +18,16 @@ DNS의 사전적 정의를 위키백과에서는 다음과 같이 설명하고 �
 
 ![DNS-01](./images/dns-01.png)
 
-1. 웹 브라우저에 www.google.com을 입력하면 먼저 Local DNS에게 "www.google.com"이라는 host name에 대한 IP 주소를 질의하고, Local DNS에 없다면 다른 DNS name 서버 정보를 받는다. (**Root DNS** 정보를 전달 받음)
+1. 웹 브라우저에 `www.google.com`을 입력하면 먼저 Local DNS에게 `www.google.com`이라는 host name에 대한 IP 주소를 질의하고, Local DNS에 없다면 다른 DNS name 서버 정보를 받는다. (**Root DNS** 정보를 전달 받음)
    - **Root DNS**(루트 네임서버)는 인터넷의 도메인 네임 시스템의 루트 존이다. 루트 존의 레코드 요청에 직접 응답하고 적절한 최상위 도메인에 대해 권한이 있는 네임 서버 목록을 반환함으로써 다른 요청에 응답한다. 전세계에 961개의 루트 DNS가 운영되고 있다.
-2. Root DNS 서버에 "www.google.com"를 질의한다.
-3. Root DNS 서버로부터 "com 도메인"을 관리하는 **TLD(Top-Level Domain)** 이름 서버 정보를 전달받는다.
+2. Root DNS 서버에 `www.google.com`를 질의한다.
+3. Root DNS 서버로부터 com 도메인을 관리하는 **TLD(Top-Level Domain)** 이름 서버 정보를 전달받는다.
    - TLD는 .com을 관리하는 서버를 칭한다.
-4. TLD에 "www.google.com"을 질의한다.
-5. TLD에서 "google.com"을 관리하는 DNS 정보를 전달한다.
-6. "google.com" 도메인을 관리하는 DNS 서버에 "www.google.com" 호스트 네임에 대한 IP 주소를 질의한다.
-7. Local DNS 서버에게 "www.google.com에 대한 IP 주소는 142.250.207.100이다."라고 응답한다.
-8. Local DNS는 www.google.com에 대한 IP 주소를 캐싱하고 IP 주소 정보를 전달한다.
+4. TLD에 `www.google.com`을 질의한다.
+5. TLD에서 `google.com`을 관리하는 DNS 정보를 전달한다.
+6. `google.com` 도메인을 관리하는 DNS 서버에 `www.google.com` 호스트 네임에 대한 IP 주소를 질의한다.
+7. Local DNS 서버에게 "`www.google.com`에 대한 IP 주소는 `142.250.207.100`이다."라고 응답한다.
+8. Local DNS는 `www.google.com`에 대한 IP 주소를 캐싱하고 IP 주소 정보를 전달한다.
 
 ## 참고 자료
 
