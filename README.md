@@ -293,7 +293,7 @@
      - 클라이언트 사이드
    - 웹 보안 지식
      - HTTPS
-     - 교차 출처 리소스 공유(CORS)
+     - [교차 출처 리소스 공유(CORS)](./Network/contents/CORS.md)
      - 콘텐츠 보안 정책(SCP)
      - SSL/TLS
      - OWASP 보안 취약점
