@@ -278,7 +278,7 @@
          - OAuth
        - OpenID
        - SAML
-     - REST
+     - [REST](./Network/contents/REST.md)
      - JSON API
      - SOAP
      - gRPC

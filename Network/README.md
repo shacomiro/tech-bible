@@ -27,7 +27,7 @@
       - OAuth
     - OpenID
     - SAML
-  - REST
+  - [REST](./contents/REST.md)
   - JSON API
   - SOAP
   - gRPC
