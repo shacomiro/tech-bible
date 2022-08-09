@@ -89,9 +89,9 @@ SOP는 지난 2011년, [RFC 6454](https://datatracker.ietf.org/doc/html/rfc6454#
 
 두 개의 출처가 서로 같다고 판단하는 로직 자체는 굉장히 간단하다. 두 URL의 구성 요소 중 `Scheme`, `Host`, `Port`, 이 세 가지만 동일하면 된다.
 
-`https://shacomiro.github.com:443`라는 출처를 예로 들면, `https://`이라는 스키마에 `github.com`이라는 호스트를 가지고 `:443`번 포트를 사용하고 있다는 것만 같다면 나머지는 전부 다르더라도 같은 출처로 인정된다.
+`https://shacomiro.github.io:443`라는 출처를 예로 들면, `https://`이라는 스키마에 `github.io`이라는 호스트를 가지고 `:443`번 포트를 사용하고 있다는 것만 같다면 나머지는 전부 다르더라도 같은 출처로 인정된다.
 
-`https://shacomiro.github.com`와 같은 출처로 인정되는 예시는 대략 다음과 같다.
+`https://shacomiro.github.io`와 같은 출처로 인정되는 예시는 대략 다음과 같다.
 
 | URL                                         | 같은 출처 여부 | 이유                        |
 | ------------------------------------------- | :------------: | --------------------------- |
@@ -102,7 +102,7 @@ SOP는 지난 2011년, [RFC 6454](https://datatracker.ietf.org/doc/html/rfc6454#
 | `https://api.github.com`                    |       X        | 호스트가 다름               |
 | `https://shacomiro.naver.com`               |       X        | 호스트가 다름               |
 | `https://shacomiro.github.com`              |       X        | 호스트가 다름               |
-| `https://shacomiro.github.com:8000`         |       ?        | 브라우저의 구현에 따라 다름 |
+| `https://shacomiro.github.io:8000`         |       ?        | 브라우저의 구현에 따라 다름 |
 
 맨 마지막 경우는 만약 출처에 `https://shacomiro.github.com:443`처럼 포트 번호가 명시되어 있다면 명백하게 다른 출처로 인정되는 부분이지만, 예시로 든 출처의 경우 포트 번호가 포함되지 않았기 때문에 판단하기가 모호하다. RFC 6454의 [Comparing Origins](https://tools.ietf.org/html/rfc6454#section-5) 목차에서는 "만약 출처가 스키마/호스트/포트의 삼중 체계라면..."이라는 전제가 붙어있기 때문에 어떻게 해석하느냐에 따라 구현이 달라질 수 있다.
 
