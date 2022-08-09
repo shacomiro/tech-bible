@@ -102,9 +102,9 @@ SOP는 지난 2011년, [RFC 6454](https://datatracker.ietf.org/doc/html/rfc6454#
 | `https://api.github.com`                    |       X        | 호스트가 다름               |
 | `https://shacomiro.naver.com`               |       X        | 호스트가 다름               |
 | `https://shacomiro.github.com`              |       X        | 호스트가 다름               |
-| `https://shacomiro.github.io:8000`         |       ?        | 브라우저의 구현에 따라 다름 |
+| `https://shacomiro.github.io:8000`          |       ?        | 브라우저의 구현에 따라 다름 |
 
-맨 마지막 경우는 만약 출처에 `https://shacomiro.github.com:443`처럼 포트 번호가 명시되어 있다면 명백하게 다른 출처로 인정되는 부분이지만, 예시로 든 출처의 경우 포트 번호가 포함되지 않았기 때문에 판단하기가 모호하다. RFC 6454의 [Comparing Origins](https://tools.ietf.org/html/rfc6454#section-5) 목차에서는 "만약 출처가 스키마/호스트/포트의 삼중 체계라면..."이라는 전제가 붙어있기 때문에 어떻게 해석하느냐에 따라 구현이 달라질 수 있다.
+맨 마지막 경우는 만약 출처에 `https://shacomiro.github.io:443`처럼 포트 번호가 명시되어 있다면 명백하게 다른 출처로 인정되는 부분이지만, 예시로 든 출처의 경우 포트 번호가 포함되지 않았기 때문에 판단하기가 모호하다. RFC 6454의 [Comparing Origins](https://tools.ietf.org/html/rfc6454#section-5) 목차에서는 "만약 출처가 스키마/호스트/포트의 삼중 체계라면..."이라는 전제가 붙어있기 때문에 어떻게 해석하느냐에 따라 구현이 달라질 수 있다.
 
 따라서 이같은 경우 각 브라우저들의 독자적인 출처 비교 로직을 따르게 된다. 여기서 중요한 사실은 출처를 비교하는 로직이 서버에 구현된 스펙이 아닌 브라우저에 구현된 스펙이라는 것이다.
 
