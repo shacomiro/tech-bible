@@ -1,19 +1,19 @@
 # 네트워크(Network)
 
 - 인터넷
-  - [인터넷의 작동 원리](./contents/How-does-the-internet-work.md)
-  - [웹의 작동 원리](./contents/How-WEB-work.md)
-  - [HTTP란?](./contents/What-is-HTTP.md)
-  - [브라우저의 작동 원리](./contents/Browsers-and-how-they-work.md)
-  - [DNS의 작동 원리](./contents/How-does-the-DNS-work.md)
+  - [인터넷의 작동 원리](./contents/internet/How-does-the-internet-work.md)
+  - [웹의 작동 원리](./contents/internet/How-WEB-work.md)
+  - [HTTP란?](./contents/internet/What-is-HTTP.md)
+  - [브라우저의 작동 원리](./contents/internet/Browsers-and-how-they-work.md)
+  - [DNS의 작동 원리](./contents/internet/How-does-the-DNS-work.md)
   - 도메인 이름이란?
   - 호스팅이란?
 - 네트워크 기본 개념
-  - [OSI 7계층과 TCP/IP 4계층](./contents/OSI-7-Layer-and-TCPIP-4-Layer.md)
-    - [캡슐화와 역캡슐화](./contents/OSI-7-Layer-and-TCPIP-4-Layer.md#캡슐화encapsulation와-역캡슐화decapsulation)
-  - [TCP와 UDP](./contents/TCP-and-UDP.md)
-    - [3-Way Handshake](./contents/TCP-and-UDP.md#3-way-handshake)
-    - [4-Way Handshake](./contents/TCP-and-UDP.md#4-way-handshake)
+  - [OSI 7계층과 TCP/IP 4계층](./contents/network-basic/OSI-7-Layer-and-TCPIP-4-Layer.md)
+    - [캡슐화와 역캡슐화](./contents/network-basic/OSI-7-Layer-and-TCPIP-4-Layer.md#캡슐화encapsulation와-역캡슐화decapsulation)
+  - [TCP와 UDP](./contents/network-basic/TCP-and-UDP.md)
+    - [3-Way Handshake](./contents/network-basic/TCP-and-UDP.md#3-way-handshake)
+    - [4-Way Handshake](./contents/network-basic/TCP-and-UDP.md#4-way-handshake)
 - API
   - HATEOAS
   - 오픈 API 명세
@@ -21,13 +21,13 @@
     - Spring REST Docs
   - 인증
     - Basic 인증
-    - [쿠키 기반 인증](./Network/contents/Cookie-based-authentication.md)
+    - [쿠키 기반 인증](./contents/api/Cookie-based-authentication.md)
     - 토큰 기반 인증
       - JWT
       - OAuth
     - OpenID
     - SAML
-  - [REST](./contents/REST.md)
+  - [REST](./contents/api/REST.md)
   - JSON API
   - SOAP
   - gRPC
@@ -42,7 +42,7 @@
   - 클라이언트 사이드
 - 웹 보안 지식
   - HTTPS
-  - [교차 출처 리소스 공유(CORS)](./contents/CORS.md)
+  - [교차 출처 리소스 공유(CORS)](./contents/web-security/CORS.md)
   - 콘텐츠 보안 정책(SCP)
   - SSL/TLS
   - OWASP 보안 취약점
@@ -57,4 +57,4 @@
   - Apache
   - Caddy
   - MS IIS
-  - [WEB 서버와 WAS를 분리하는 이유](./contents/Reasons-for-separating-the-WEB-Server-and-WAS.md)
+  - [WEB 서버와 WAS를 분리하는 이유](./contents/web-server/Reasons-for-separating-the-WEB-Server-and-WAS.md)
